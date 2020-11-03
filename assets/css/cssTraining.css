@@ -35,7 +35,54 @@
 }
 
 #boxD span{
-    font-size: 200px;
+    font-size: 100px;
     color: cornsilk;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#sidebar {
+    background-color: lightgray;
+    
+    height: 200px;
+    width: 200px;
+    z-index: 0;
+    float: left;
+}
+
+#hello {
+    float: none;
+    width: auto;
+    height: 200px;
+    background-color: lightskyblue;
+    z-index: 2;
+    text-align: center;
+    
+}
+
+div.flexcontainer {
+    background-color: lime;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+div.flexcontainer > div{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    margin: 20 px 10 px;
+    padding: 20px;
+
+
+}
+
+#footer {
+        z-index: 0;
+        margin-top:50px;
+        height: 100px;
+        width: 100%;
+        background-color: darkgray;
+
+}
+#footer h1{
+        font-size: 30px;
 }

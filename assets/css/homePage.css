@@ -12,8 +12,9 @@ body{
  
 }
 
-p.pinktext {color: tomato;
-            text-decoration: underline;}
+p.pinktext {color: black;
+            text-decoration: bold;
+            font-size: 30px;}
 
 h2#pinktext {color: darkcyan;}
 
@@ -22,11 +23,22 @@ h2#pinktext {color: darkcyan;}
     width: 200px;
     height: 200px;
     background-color: darkmagenta;
+    z-index: 2;
 }
 
 #secondbox {
     width: 300px;
     height: 600 px;
     background-color: black;
+    float: left;
+    position: relative;
+    z-index: 3;
 
+}
+
+#thirdbox {
+    float: right;
+    width: 300px;
+    height: 300px;
+    background-color: darkblue;
 }
