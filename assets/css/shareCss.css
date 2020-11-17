@@ -1,0 +1,19 @@
+.navBar-brand {
+    height: 30px;
+    width: 30px;
+}
+.customNav {
+    font: arial;
+    font-size: 20px;
+}
+
+.customNav li.nav-item.active {
+    color: white;
+    font-size: 20px;
+    font: arial;
+    text-decoration: none;
+}
+
+.customNav li.nav-item.active a:hover {
+    color:;
+}
