@@ -1,0 +1,11 @@
+p.veggie {
+background-color: green;
+color: white;
+padding: 20px;
+}
+
+p.rice {
+    background-color: orangered;
+    color: white;
+    padding: 10px 20px;
+}
