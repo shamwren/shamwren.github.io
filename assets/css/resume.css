@@ -63,8 +63,9 @@ li {
     position: relative;
     right:75px;
     top:125px
-   
+    margin-right: 10px;
 }
+
 
 .smallThin {
     font-size: 20px;
