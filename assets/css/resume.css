@@ -36,12 +36,14 @@
  }
 
 .skillsImage {
-    width: 120px;
+    width: 115px;
     height: auto;
+    padding: 5px;
 }
 
 .personalSkills {
     columns: 20px 2;
+    line line-height: 10px;
 }
 
 li {
