@@ -67,7 +67,55 @@ li {
     top:150px;
 }
 
+.verticalText2 {
+    font-size: 22px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    height: auto;
+    position: relative;
+    right:75px;
+    top:100px;
+}
 
+.verticalText3 {
+    font-size: 22px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    height: auto;
+    position: relative;
+    right:75px;
+    top:120px;
+}
+
+.verticalText4 {
+    font-size: 22px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    height: auto;
+    position: relative;
+    right:75px;
+    top:165px;
+}
+
+.verticalText5 {
+    font-size: 22px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    height: auto;
+    position: relative;
+    right:75px;
+    top:130px;
+}
+
+.verticalText6 {
+    font-size: 22px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    height: auto;
+    position: relative;
+    right:75px;
+    top:92px;
+}
 .smallThin {
     font-size: 20px;
     font-weight: bold;
