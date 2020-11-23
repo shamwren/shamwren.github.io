@@ -39,6 +39,10 @@
     columns: 20px 2;
 }
 
+li {
+    list-style-type: none;
+}
+
 .verticalText {
     transform: rotate(270deg);
     transform-origin: -2% 160% 0;
