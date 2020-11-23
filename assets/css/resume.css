@@ -5,6 +5,8 @@
     background-position: center;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-bottom: 100px;
 }
 
 .contactInfo {
@@ -62,8 +64,7 @@ li {
     height: auto;
     position: relative;
     right:75px;
-    top:125px
-    margin-right: 10px;
+    top:150px;
 }
 
 
