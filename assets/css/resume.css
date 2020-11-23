@@ -71,8 +71,8 @@ li {
     font-size: 22px;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    height: auto;
     position: relative;
+    height:auto;
     right:75px;
     top:100px;
 }
