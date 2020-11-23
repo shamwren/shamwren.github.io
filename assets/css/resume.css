@@ -7,6 +7,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    width:100px;
+    height:auto;
+}
 
 h2 {
     font-size: 15px;
