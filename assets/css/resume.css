@@ -7,12 +7,25 @@
     font-family: Arial, Helvetica, sans-serif;
     padding: 30px;
     margin-bottom: 100px;
-   
 }
 
-
+.education {
+    z-index: -1;
+}
 .contactInfo {
     color: black;
+}
+
+a.contactInfo:hover {
+    background-color: hotpink;
+    color: white;
+    text-decoration: none;
+}
+
+a.projectsText .smallBold:hover {
+    color: white;
+    text-decoration: none;
+    background-color: hotpink;
 }
 
 .bold {
@@ -49,6 +62,7 @@
     columns: 20px 2;
     line-height: 50px;
     font-size: 20px;
+    z-index: -1;
 }
 
 li {
