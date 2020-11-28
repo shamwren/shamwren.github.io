@@ -2,18 +2,28 @@
     height: 30px;
     width: 30px;
 }
+
+.navbar {
+    position: sticky;
+    font-size: 15px;
+}
 .customNav {
-    font: arial;
-    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: sticky;
 }
 
 .customNav li.nav-item.active {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font: arial;
     text-decoration: none;
 }
 
 .customNav li.nav-item.active a:hover {
-    color:;
+    color:hotpink;
+}
+
+.dropdown {
+    font-size: 15px;
 }
