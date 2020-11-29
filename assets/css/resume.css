@@ -63,6 +63,7 @@ a.projectsText .smallBold:hover {
     line-height: 50px;
     font-size: 20px;
     z-index: -1;
+    padding: 5px;
 }
 
 li {
