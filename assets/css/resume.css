@@ -27,6 +27,9 @@ a.projectsText .smallBold:hover {
     text-decoration: none;
     background-color: hotpink;
 }
+a.projectsText:hover {
+    text-decoration: none;
+}
 
 .bold {
     font-size: 30px;
