@@ -1,0 +1,47 @@
+
+div.container-fluid {
+    padding-bottom: 30px;
+}
+div.topRow {
+    padding-bottom: 20px;
+}
+div.secondRow {
+
+    background-position: center;
+    background-size: cover;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+div.thirdRow {
+    padding: 40px;
+}
+
+div.fourthRow {
+    padding: 40px;
+}
+
+img.styleGuide {
+    border: 3px thin;
+}
+
+h1.brandingTitle {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+}
+
+div.descriptionText {
+    font-family: 'Epilogue', sans-serif;
+    color: black;
+    padding: 40px;
+    padding-top: 120px;
+    vertical-align: middle;
+    align-content: center;
+}
+
+}
