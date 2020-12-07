@@ -61,9 +61,10 @@ div.container-fluid {
     background-color: black;
     color: white;
     padding: 10px 10px;
+    position: relative;
 }
-.card {
-    outline: none;
+div.card {
+border: none;
 }
 
 .card-img-top {
@@ -79,6 +80,6 @@ h5.card-text {
 
 p.card-text {
     font-family:  'Epilogue', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
 }

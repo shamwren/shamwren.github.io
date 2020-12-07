@@ -29,7 +29,7 @@ img.styleGuide {
 
 h1.brandingTitle {
     text-align: center;
-    font-size: 30px;
+    font-size: 4vmin;
     color: black;
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
@@ -42,6 +42,7 @@ div.descriptionText {
     padding-top: 120px;
     vertical-align: middle;
     align-content: center;
+    font-size: 1.2vw;
 }
 
 }

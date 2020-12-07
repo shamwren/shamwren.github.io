@@ -29,7 +29,7 @@ img.styleGuide {
 
 h1.brandingTitle {
     text-align: center;
-    font-size: 30px;
+    font-size: 4vmin;
     color: black;
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
@@ -48,13 +48,8 @@ div.descriptionText1 {
     font-family: 'Epilogue', sans-serif;
     padding: 40px;
     padding-top: 130px;
-
+    font-size: 1.2vw;
 }
 
-div.descriptionText2 {
-    font-family: 'Epilogue', sans-serif;
-    padding: 40px;
-    padding-top: 250px;
-    padding-left: 150px;
 
 }
