@@ -34,3 +34,27 @@ h1.brandingTitle {
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
 }
+
+div.descriptionText {
+    font-family: 'Epilogue', sans-serif;
+    color: white;
+    padding: 40px;
+    padding-top: 345px;
+    vertical-align: middle;
+    align-content: center;
+}
+
+div.descriptionText1 {
+    font-family: 'Epilogue', sans-serif;
+    padding: 40px;
+    padding-top: 130px;
+
+}
+
+div.descriptionText2 {
+    font-family: 'Epilogue', sans-serif;
+    padding: 40px;
+    padding-top: 250px;
+    padding-left: 150px;
+
+}
