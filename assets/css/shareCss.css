@@ -46,8 +46,9 @@ div.footer {
 }
 
 a.easterEgg {
-    color: none;
+    color: white;
     text-decoration: none;
+    opacity: 0;
 }
 
 a.easterEgg:hover {
