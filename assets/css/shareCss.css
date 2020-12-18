@@ -34,3 +34,23 @@
 .homeButton {
     display: none;
 }
+
+footer#bottom  {
+    position: sticky;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 10px;
+}
+
+div.footer {
+    height: fit-content;
+}
+
+a.easterEgg {
+    color: white;
+    text-decoration: none;
+}
+
+a.easterEgg:hover {
+    text-decoration: none;
+    color: hotpink;
+}
