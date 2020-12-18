@@ -28,7 +28,7 @@ h3.center {
     border-radius: 50%;
 }
 
-p {
+p.centerText {
     text-align: center;
     font-family: 'Epilogue', sans-serif;
     font-size: 13px;

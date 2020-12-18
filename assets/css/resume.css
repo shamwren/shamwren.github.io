@@ -45,11 +45,6 @@ a.projectsText:hover {
      font-size: 20px;
  }
 
- p {
-     text-align: ;
- }
-
-
  .projectsText {
      color: black;
  }
@@ -166,4 +161,8 @@ ul.personalSkills {
 
 .solid hr {
     border-top: 20px solid #000000;
+}
+
+#bottom {
+    position: fixed;
 }
