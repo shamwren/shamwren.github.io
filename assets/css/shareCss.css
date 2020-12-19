@@ -35,10 +35,27 @@
     display: none;
 }
 
+#topButton {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    padding: 10px;
+    background-color: black;
+    display: none;
+    color: white;
+}
+
 footer#bottom  {
     position: sticky;
     font-family: 'Epilogue', sans-serif;
     font-size: 10px;
+    width: 100%;
+    padding: 20px;
 
 }
 
@@ -47,9 +64,9 @@ div.footer {
 }
 
 a.easterEgg {
-    color: white;
+    color: transparent;
     text-decoration: none;
-    opacity: 0;
+
 }
 
 a.easterEgg:hover {

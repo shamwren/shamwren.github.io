@@ -61,7 +61,33 @@
 </head>
 
 <body class="page">
-  
+   <!--top button-->
+   <button onclick="topFunction()" type="button" class="btn btn-light" id="topButton" title="go to top">top</button>
+   <script>
+     //Get the button
+     var mybutton = document.getElementById("topButton");
+ 
+     // When the user scrolls down 20px from the top of the document, show the button
+     window.onscroll = function () {
+       scrollFunction()
+     };
+ 
+     function scrollFunction() {
+       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+         mybutton.style.display = "block";
+       } else {
+         mybutton.style.display = "none";
+       }
+     }
+ 
+     // When the user clicks on the button, scroll to the top of the document
+     function topFunction() {
+       document.body.scrollTop = 0;
+       document.documentElement.scrollTop = 0;
+     }
+   </script>
+
+
     <div class="container resumeTop">
   <!--top section-->
       <div class="row topRow mx-md-4">
@@ -274,24 +300,23 @@
   
   </div>
 
-</body>
-
-<footer id="bottom">
-  <div class="container-fluid">
-    <div class="row footer">
-      <div class="col-xs-8 col-md-8 col-lg-8">
-        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> 
-          Katie Tju. All Rights Reserved.</p>
-      </div>
-      <div class="col-xs-2 col-md-2 col-lg-2">
-
-      </div>
-      <div class="col-xs-2 col-md-2 col-lg-2 easterEgg">
-        <a class="easterEgg" href="extraGoodies.html"><p>extra goodies</p></a> 
+  <footer id="bottom">
+    <div class="container-fluid">
+      <div class="row footer">
+        <div class="col-xs-8 col-md-8 col-lg-8">
+          <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> 
+            Katie Tju. All Rights Reserved.</p>
+        </div>
+        <div class="col-xs-2 col-md-2 col-lg-2">
+  
+        </div>
+        <div class="col-xs-2 col-md-2 col-lg-2 easterEgg">
+          <a class="easterEgg" href="extraGoodies.html"><p>extra goodies</p></a> 
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
+</body>
 
 
     <!-- boostrap script -->
