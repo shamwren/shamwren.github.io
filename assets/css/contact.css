@@ -2,10 +2,14 @@ body {
     background-image: url(/assets/images/gradientBackground.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 110%;
+    background-size: 107%;
     font-family: 'Epilogue', sans-serif;
 }
 
+main {
+    margin-bottom: 50px;
+    height: 625px;
+}
 
 h1.center {
     text-align: center;

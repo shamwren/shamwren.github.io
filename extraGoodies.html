@@ -60,7 +60,34 @@
 
 </head>
 
+<div id="vantaFog">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.21/dist/vanta.fog.min.js"></script>
+    <script>
+      VANTA.FOG({
+        el: "#vantaFog",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        highlightColor: 0xfff2ca,
+        midtoneColor: 0xffcdb3,
+        lowlightColor: 0xf6bcbc,
+        baseColor: 0xffffff,
+        blurFactor: 0.64,
+        speed: 3.00,
+        zoom: 0.80
+      })
+    </script>
+  </div>
+
 <body>
+<main>
+
+
+    
+</main>
 
 
 <footer id="bottom">
@@ -80,6 +107,8 @@
     </div>
   </footer>
 </body>
+
+
   <!-- boostrap script -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

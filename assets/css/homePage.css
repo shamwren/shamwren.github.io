@@ -1,16 +1,4 @@
-#vantaFog {
-    position: absolute;
-    display:block;
-    min-width: 100%;
-    min-height: 100vh;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    background-size: cover;
-    display: none;
-}
+
 
 body {
     font-family: 'Epilogue', sans-serif;
@@ -18,6 +6,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-bottom: 50px;
 }
 
 div.container-fluid {
