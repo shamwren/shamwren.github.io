@@ -63,13 +63,14 @@ border: none;
 }
 
 h5.card-text {
-    font-family:  'Epilogue', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     font-weight: 700;
+    font-size: ;
 }
 
 p.card-text {
     font-family:  'Epilogue', sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 300;
 }
 

@@ -24,22 +24,33 @@ div.fourthRow {
 }
 
 img.styleGuide {
-    border: 3px thin;
+    width: 600px;
+    padding-left: 20px;
 }
 
-h1.brandingTitle {
-    text-align: center;
-    font-size: 4vmin;
+h1.projectTitle {
+    text-align: left;
+    font-size: 3.75rem;
     color: black;
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
+    padding-left: 60px;
 }
+h2.projectType {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-left: 63px;
 
+}
+p.clientTitle {
+    
+}
 div.descriptionText {
     font-family: 'Epilogue', sans-serif;
     color: white;
-    padding: 40px;
-    padding-top: 345px;
+    padding: ;
+    padding-left: 20px;
     vertical-align: middle;
     align-content: center;
     font-size: 1.2vw;
@@ -48,14 +59,12 @@ div.descriptionText {
 div.descriptionText1 {
     font-family: 'Epilogue', sans-serif;
     padding: 40px;
-    padding-top: 130px;
+    padding-top: ;
     font-size: 1.2vw;
 }
 
 div.descriptionText2 {
     font-family: 'Epilogue', sans-serif;
     padding: 40px;
-    padding-top: 250px;
-    padding-left: 150px;
     font-size: 1.2vw;
 }
