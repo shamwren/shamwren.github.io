@@ -24,7 +24,7 @@ div.fourthRow {
 }
 
 img.styleGuide {
-    width: 600px;
+    width: 100%;
     padding-left: 20px;
 }
 
@@ -43,22 +43,32 @@ h2.projectType {
     padding-left: 63px;
 
 }
+
+h2.secHeader {
+    font-size: 3rem;
+    font-weight: 500;
+}
 p.clientTitle {
-    
+    font-size: 1rem;
 }
 div.descriptionText {
     font-family: 'Epilogue', sans-serif;
     color: white;
-    padding: ;
+    padding-top: ;
     padding-left: 20px;
     vertical-align: middle;
     align-content: center;
-    font-size: 1.2vw;
+
+}
+
+p.copytext {
+    font-size: 1rem;
+
 }
 
 div.descriptionText1 {
     font-family: 'Epilogue', sans-serif;
-    padding: 40px;
+    padding-left: 20px;
     padding-top: ;
     font-size: 1.2vw;
 }
