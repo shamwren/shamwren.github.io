@@ -2,7 +2,7 @@ body {
     background-image: url(/assets/images/gradientBackground.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 107%;
+    background-size: cover;
     font-family: 'Epilogue', sans-serif;
 }
 
