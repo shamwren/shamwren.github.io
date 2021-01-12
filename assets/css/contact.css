@@ -43,6 +43,7 @@ p.centerText {
     font-family:'Epilogue', sans-serif;
 }
 h4.center {
+    text-align: center;
     font-size: 15px;
     font-weight: 300;
     color: white;

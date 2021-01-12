@@ -8,6 +8,13 @@
     margin-bottom: 50px;
 }
 
+@media only screen and (max-width: 576px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
 .education {
     z-index: -1;
 }
