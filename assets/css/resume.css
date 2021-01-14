@@ -5,7 +5,7 @@ body.page {
     background-position: center;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
     overflow-x: hidden;
 }
 $grid-breakpoints: (
@@ -17,46 +17,7 @@ $grid-breakpoints: (
   xxl: 1400px
 );
 
-@media only screen and (max-width: 576px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-    width: 100%;}
-    .col-auto {width: 100%;}
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 100%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 100%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 100%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-
-    .col-sm-auto {width: 100%;}
-    .col-sm-1 {width: 8.33%;}
-    .col-sm-2 {width: 16.66%;}
-    .col-sm-3 {width: 25%;}
-    .col-sm-4 {width: 33.33%;}
-    .col-sm-5 {width: 41.66%;}
-    .col-sm-6 {width: 50%;}
-    .col-sm-7 {width: 100%;}
-    .col-sm-8 {width: 66.66%;}
-    .col-sm-9 {width: 75%;}
-    .col-sm-10 {width: 83.33%;}
-    .col-sm-11 {width: 91.66%;}
-    .col-sm-12 {width: 100%;}
-  }
-
-  @media only screen and (min-width: 576px) {
-    [class*="col-"] {
-        width: 100%;
-      }
-  }
-
-  img.header {
+img.header {
       width: 100%;
       height: auto;
       padding-bottom: 10px;
@@ -67,6 +28,7 @@ $grid-breakpoints: (
 }
 .contactInfo {
     color: black;
+    font-size: 1.6rem; 
 }
 
 a.contactInfo:hover {
@@ -84,8 +46,11 @@ a.projectsText:hover {
     text-decoration: none;
 }
 
+.projectsText {
+    color: black;
+}
 .bold {
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: bold;
     text-align: left;
 }
@@ -99,12 +64,8 @@ a.projectsText:hover {
      font-size: 20px;
  }
 
- .projectsText {
-     color: black;
- }
-
 div.bottomRow {
-     margin-top: 25px;
+     margin-top: 2.6rem;
  }
 
 .skillsImage {
@@ -114,23 +75,22 @@ div.bottomRow {
 }
 
 ul.personalSkills {
-    columns: 120px 2;
+    columns: 12.6rem 2;
     line-height: 50px;
-    font-size: 20px;
+    font-size: 2rem;
     z-index: -1;
     padding: 5px;
-}
-
-ul.personalSkills {
     list-style-type: '+ ';
 }
-
 
 .shift {
     position: relative;
     left: 45px;
 }
 
+.experienceText {
+    font-size: 1.6rem;
+}
 .verticalText {
     font-size: 22px;
     writing-mode: vertical-rl;
@@ -151,6 +111,7 @@ ul.personalSkills {
     right:70px;
     top:100px;
     margin-top: -70px;
+    margin-bottom: 1rem;
 }
 
 .verticalText3 {
@@ -208,8 +169,19 @@ ul.personalSkills {
     top:150px;
     margin-top: -145px;
 }
+
+.verticalText8 {
+    font-size: 22px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    height: auto;
+    position: relative;
+    right:70px;
+    top:165px;
+    margin-top: -100px;
+}
 .smallThin {
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bold;
 }
 
@@ -218,6 +190,6 @@ hr.solid {
     opacity: 30%;
 }
 
-#bottom {
-
+.honorsText {
+    font-size: 1.6rem;
 }

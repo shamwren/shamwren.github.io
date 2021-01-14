@@ -1,8 +1,7 @@
 html {
     scroll-behavior: smooth;
-    font-size: 16px;
+    font-size: 10px;
 }
-
 
 /*navbar*/
 img.navLogo {
@@ -12,22 +11,16 @@ img.navLogo {
 
 nav.navbar {
     position: sticky;
-    font-size:  0.875rem;
-    padding-top: 60px;
-    padding-left: 77px;
-    padding-bottom: 60px;
-    padding-right: 77px;
-}
-.customNav {
     font-family: Arial, Helvetica, sans-serif;
-    position: sticky;
     align-items: center;
+}
+button.navbar-toggler {
+    border: none;
+    opacity: 50%;
 }
 
 .customNav li.nav-item.active {
     color: white;
-    font-size: 0.875rem;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;;
     text-decoration: overline;
 }
 
@@ -47,14 +40,14 @@ nav.navbar {
 /*scroll to top*/
 #topButton {
     font-family: 'Epilogue', sans-serif;
-    font-size: 0.9375rem;
+    font-size: 1.5rem;
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 2rem;
+    right: 3rem;
     z-index: 99;
     border: none;
     outline: none;
-    padding: 0.625rem;
+    padding: 1rem;
     background-color: black;
     display: none;
     color: white;
@@ -75,10 +68,10 @@ h1.projectTitle {
 footer#bottom  {
     position: sticky;
     font-family: 'Epilogue', sans-serif;
-    font-size: 10px;
+    font-size: 1rem;
     width: 100%;
-    padding: 20px;
-    height: 50px;
+    padding: 2rem;
+    height: 5rem;
 }
 
 div.footer {
@@ -97,30 +90,125 @@ a.easterEgg:hover {
     color: hotpink;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    #topButton {font-size: 0.9375rem;}
-
+/*media queries breakpoint*/
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    #topButton {
+        font-size: 1.5rem;
+        padding: 1rem;}
+    nav.navbar {
+        position: sticky;
+        font-size:  1.6rem;
+        padding-top: 3rem;
+        padding-left: 2.5rem;
+        padding-bottom: 3rem;
+        padding-right: 2.5rem;}
+    footer#bottom  {
+        position: sticky;
+        font-family: 'Epilogue', sans-serif;
+        font-size: 1rem;
+        width: 100%;
+        padding: 2rem;
+        height: 5rem;}
+/*resume*/
+    .contactInfo {
+        font-size: 1.4rem;}
+    ul.personalSkills {
+        font-size: 1.8rem;
+        padding: .8rem;
+        } 
+    .verticalText {
+        top:18.2rem;
+    }   
+    .verticalText2 {
+        top:12.6rem;
+        margin-top: -9rem;
+    }
+    .verticalText3 {
+        top:12rem;
+        margin-top: -100px;
+    }
+    .verticalText4 {
+        top:20.4rem;
+    }
+    .verticalText8 {
+        top:18rem;
+    }
+    .verticalText5 {
+        top:15.6rem;
+    }
+    .verticalText6 {
+        top:11.3rem;
+    }
+    .verticalText7 {
+        top:16rem;
+    }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    #topButton {font-size: 0.9375rem;}
+@media only screen and (min-width:430px) {
+    .verticalText2 {
+        top:10.62rem;
+        margin-top: -9rem;
+    }
+    .verticalText7 {
+        top:15rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    #topButton {font-size: 1.5rem;}
+    nav.navbar {        
+        position: sticky;
+        font-size:  1.6rem;
+        padding-top: 3rem;
+        padding-left: 2.4rem;
+        padding-bottom: 4rem;
+        padding-right: 2.4rem;}
+    /*resume*/
+    .verticalText2 {
+        top:14rem;
+        margin-top: -9rem;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    #topButton {font-size: 0.9375rem;}
+    #topButton {font-size: 1.5rem;}
+    nav.navbar {
+        font-size:  1.5rem;
+        padding-top: 6rem;
+        padding-left: 7.7rem;
+        padding-bottom: 4rem;
+        padding-right: 7.7rem;}
+/*resume*/
+    .verticalText2 {
+        top:10.3rem;
+        margin-top: -9rem;
+    }
+    .verticalText7 {
+        top:17rem;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    #topButton {font-size: 0.9375rem;}
+    #topButton {font-size: 1.5rem;}
+/*resume*/
+    .verticalText2 {
+        top:13rem;
+        margin-top: -9rem;
+    }
 
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    #topButton {font-size: 0.9375rem;}
+    #topButton {font-size: 1.5rem;}
+/*resume*/
+    .verticalText2 {
+        top:10rem;
+        margin-top: -9rem;
+    }
 
 }

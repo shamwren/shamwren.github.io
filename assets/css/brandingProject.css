@@ -1,3 +1,14 @@
+html {
+    overflow-x: hidden;
+    font-size: 10px;
+}
+@media (max-width: 576px) {
+    h1.projectTitle {font-size: 30px;}
+ }
+
+@media (min-width: 576px) {
+    h1.projectTitle {font-size: 1rem;}
+}
 
 div.container-fluid {
     padding-bottom: 30px;
@@ -9,10 +20,14 @@ div.secondRow {
     background-color: black;
     background-position: center;
     background-size: cover;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-origin: border-box;
+
+}
+div.blackBackground {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
 }
 
 div.thirdRow {
@@ -25,12 +40,12 @@ div.fourthRow {
 
 img.styleGuide {
     width: 100%;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 h1.projectTitle {
     text-align: left;
-    font-size: 3.75rem;
+    font-size: 60px;
     color: black;
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
@@ -45,7 +60,7 @@ h2.projectType {
 }
 
 h2.secHeader {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
 }
 p.clientTitle {
