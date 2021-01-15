@@ -195,11 +195,17 @@ a.easterEgg:hover {
 @media only screen and (min-width: 992px) {
     #topButton {font-size: 1.5rem;}
 /*resume*/
+    ul.personalSkills {
+        font-size: 1.8rem;
+        padding: .3rem;
+        } 
     .verticalText2 {
         top:13rem;
         margin-top: -9rem;
     }
-
+    .verticalText7 {
+        top:15rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
