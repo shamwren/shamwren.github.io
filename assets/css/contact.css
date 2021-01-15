@@ -62,12 +62,12 @@ h4.center {
     --animate-duration: 1s;
   }
 
-.contactInfo {
+.contactInfoIcon {
     color: white;
     font-size: 30px;
     text-align: center;
 
 }
-.contactInfo:hover {
+.contactInfoIcon:hover {
     color: hotpink;
 }
