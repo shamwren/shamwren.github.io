@@ -16,72 +16,74 @@ div.secondRow {
 
 }
 div.blackBackground {
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-top: 40px;
-        padding-bottom: 40px;
+    padding: 4rem;
 }
 
 div.thirdRow {
     padding: 40px;
 }
-
 div.fourthRow {
-    padding: 40px;
+    padding: 4rem;
 }
-
-img.styleGuide {
+div.fifthRow {
+    padding: 4rem;
+}
+img.projectIcon {
     width: 100%;
-    padding-left: 40px;
+    padding-left: 4rem;
 }
-
+img.final1 {
+    width: 100%;
+    padding-left: 4rem;
+}
+img.progress1 img.progress2 {
+    width: 100%;
+    padding-left: 4rem;
+}
+img.cppPhoto {
+    width: fit-content;
+}
 h1.projectTitle {
     text-align: left;
-    font-size: 60px;
-    color: black;
+    font-size: 6rem;
+    color:#1b1c1e;
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
-    padding-left: 60px;
+    padding-left: 6rem;
 }
 h2.projectType {
     font-family: 'Epilogue', sans-serif;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 2rem;
     padding-left: 63px;
-
 }
-
 h2.secHeader {
-    font-size: 2.5rem;
-    font-weight: 500;
-}
+    font-size: 4rem;
+    font-weight: 500;}
 p.clientTitle {
-    font-size: 1rem;
+    font-size: 1.7rem;
 }
 div.descriptionText {
     font-family: 'Epilogue', sans-serif;
     color: white;
     padding-top: ;
-    padding-left: 20px;
+    padding-left: 2rem;
     vertical-align: middle;
     align-content: center;
-
 }
-
-p.copytext {
-    font-size: 1rem;
-
+p.copyText {
+    font-size: 1.5rem;
 }
 
 div.descriptionText1 {
     font-family: 'Epilogue', sans-serif;
     padding-left: 20px;
     padding-top: ;
-    font-size: 1.2vw;
+    font-size: 1.5rem;
 }
 
 div.descriptionText2 {
     font-family: 'Epilogue', sans-serif;
-    padding: 40px;
-    font-size: 1.2vw;
+    padding: 1rem;
+    font-size: 1.5rem;
 }

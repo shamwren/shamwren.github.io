@@ -143,6 +143,58 @@ a.easterEgg:hover {
     .verticalText7 {
         top:16rem;
     }
+/*projects*/
+    h1.projectTitle {
+        font-size: 4rem;
+        padding-left: 1rem;}
+    h2.projectType {
+        font-size: 1.7rem;
+        padding-left: 1.2rem;}
+    h2.secHeader {
+        font-size: 3rem;}
+    img.projectIcon {
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 1rem;}
+    img.progress1 {
+        padding-left: 1rem;
+        padding-right:.5rem}
+    img.progress2 {
+        padding-left:01rem;
+        padding-right:1rem}
+    div.blackBackground {
+        padding-left: 1rem;
+        padding-top: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 1rem;}
+    h2.secHeader {
+        text-align: center;
+        padding-bottom:.2rem;}
+    p.clientTitle {
+        font-size: 1.18rem;}
+    p.copyText {
+        font-size: 1.3rem;}
+    div.thirdRow {
+        padding-top: 2rem;
+        padding-left: 0rem;
+        padding-right: 1rem;}
+    div.fourthRow {
+        padding: 1rem;}
+    div.fifthRow {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    img.cppPhoto {
+        align-content: center;
+        padding: 1rem;
+        padding-left: 2rem;
+    }
+    img.final1 {
+        width: 100%;
+        padding-left: 0rem;
+    }
+    
+
 }
 
 @media only screen and (min-width:430px) {
@@ -165,12 +217,16 @@ a.easterEgg:hover {
         padding-left: 2.4rem;
         padding-bottom: 4rem;
         padding-right: 2.4rem;}
-    /*resume*/
+/*resume*/
     .verticalText2 {
         top:14rem;
-        margin-top: -9rem;
-    }
-}
+        margin-top: -9rem;}
+
+/*projects*/
+    img.final1 {
+        width: 100%;
+        padding-left: 0rem;}
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -189,6 +245,11 @@ a.easterEgg:hover {
     .verticalText7 {
         top:17rem;
     }
+
+/*projects*/
+    img.final1 {
+        width: 100%;
+        padding-left: 0rem;}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

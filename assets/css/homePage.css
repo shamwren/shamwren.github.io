@@ -10,7 +10,7 @@ body {
 }
 
 div.container-fluid {
-    padding: 40px;
+    padding: 4rem;
 }
 
 .card:hover {
@@ -65,12 +65,12 @@ border: none;
 h5.card-text {
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
-    font-size: ;
+    font-size: 2.5rem;
 }
 
 p.card-text {
-    font-family:  'Epilogue', sans-serif;
-    font-size: 0.75rem;
+    font-family:'Epilogue', sans-serif;
+    font-size: 1.2rem;
     font-weight: 300;
 }
 
