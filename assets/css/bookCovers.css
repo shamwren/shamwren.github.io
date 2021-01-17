@@ -2,8 +2,23 @@
 div.container-fluid {
     padding-bottom: 30px;
 }
+/*row 1*/
 div.topRow {
-    padding-bottom: 20px;
+    padding-bottom: 2rem;
+}
+h1.projectTitle {
+    text-align: left;
+    font-size: 6rem;
+    color:#1b1c1e;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    padding-left: 6rem;
+}
+h2.projectType {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-left: 63px;
 }
 div.secondRow {
 
