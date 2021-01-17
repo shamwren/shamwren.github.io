@@ -75,20 +75,15 @@ footer#bottom  {
 }
 
 div.footer {
-    height: fit-content;
-}
+    height: fit-content;}
 
 a.easterEgg {
     color: transparent;
-    text-decoration: none;
-    text-align: ;
-
-}
+    text-decoration: none;}
 
 a.easterEgg:hover {
     text-decoration: none;
-    color: hotpink;
-}
+    color: hotpink;}
 
 /*media queries breakpoint*/
 /* Extra small devices (phones, 576px and down) */
@@ -180,7 +175,7 @@ a.easterEgg:hover {
         padding-right: 1rem;}
     div.fourthRow {
         padding: 1rem;}
-    div.fifthRow {
+    div.sixthRow {
         padding-left: 1rem;
         padding-right: 1rem;
     }
@@ -191,7 +186,14 @@ a.easterEgg:hover {
     }
     img.final1 {
         width: 100%;
-        padding-left: 0rem;
+        padding-left: 1rem;
+    }
+    img.styleGuide {
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+    div.fifthRow {
+        padding: 1rem;
     }
     
 
@@ -221,12 +223,11 @@ a.easterEgg:hover {
     .verticalText2 {
         top:14rem;
         margin-top: -9rem;}
-
 /*projects*/
     img.final1 {
         width: 100%;
         padding-left: 0rem;}
-
+    }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {

@@ -1,47 +1,13 @@
 html {
     overflow-x: hidden;
 }
-
 div.container-fluid {
     padding-bottom: 30px;
 }
+
+/*row 1*/
 div.topRow {
-    padding-bottom: 20px;
-}
-div.secondRow {
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    background-origin: border-box;
-
-}
-div.blackBackground {
-    padding: 4rem;
-}
-
-div.thirdRow {
-    padding: 40px;
-}
-div.fourthRow {
-    padding: 4rem;
-}
-div.fifthRow {
-    padding: 4rem;
-}
-img.projectIcon {
-    width: 100%;
-    padding-left: 4rem;
-}
-img.final1 {
-    width: 100%;
-    padding-left: 4rem;
-}
-img.progress1 img.progress2 {
-    width: 100%;
-    padding-left: 4rem;
-}
-img.cppPhoto {
-    width: fit-content;
+    padding-bottom: 2rem;
 }
 h1.projectTitle {
     text-align: left;
@@ -57,9 +23,17 @@ h2.projectType {
     font-size: 2rem;
     padding-left: 63px;
 }
-h2.secHeader {
-    font-size: 4rem;
-    font-weight: 500;}
+/*row 2*/
+div.secondRow {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+
+}
+div.blackBackground {
+    padding: 4rem;
+}
 p.clientTitle {
     font-size: 1.7rem;
 }
@@ -71,19 +45,66 @@ div.descriptionText {
     vertical-align: middle;
     align-content: center;
 }
-p.copyText {
-    font-size: 1.5rem;
+img.projectIcon {
+    width: 100%;
+    padding-left: 4rem;
 }
-
+/*row 3*/
+div.thirdRow {
+    padding: 40px;
+}
 div.descriptionText1 {
     font-family: 'Epilogue', sans-serif;
     padding-left: 20px;
     padding-top: ;
     font-size: 1.5rem;
 }
+img.cppPhoto {
+    width: fit-content;
+}
 
+/*row 4*/
+div.fourthRow {
+    padding: 4rem;
+}
+img.progress1 img.progress2 {
+    width: 100%;
+    padding-left: 4rem;
+}
+
+h2.centerHead {
+    text-align: center;
+}
+
+/*row 5*/
+div.fifthRow {
+    padding: 4rem;
+}
+img.styleGuide {
+    padding-top: 2rem;
+    padding-left: 4rem;
+}
+/*row 6*/
+div.sixthRow {
+    padding: 4rem;
+}
 div.descriptionText2 {
     font-family: 'Epilogue', sans-serif;
-    padding: 1rem;
+    padding: rem;
     font-size: 1.5rem;
 }
+img.final1 {
+    width: auto;
+    padding-left: 0rem;
+}
+
+/*copy text*/
+h2.secHeader {
+    font-size: 4rem;
+    font-weight: 500;}
+p.copyText {
+    font-size: 1.5rem;
+}
+
+
+
