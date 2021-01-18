@@ -1,7 +1,15 @@
 
 div.container-fluid {
-    padding-bottom: 30px;
+    padding-bottom: 3rem;
 }
+/*copy text*/
+h2.secHeader {
+    font-size: 4rem;
+    font-weight: 500;}
+p.copyText {
+    font-size: 1.5rem;
+}
+
 /*row 1*/
 div.topRow {
     padding-bottom: 2rem;
@@ -20,51 +28,43 @@ h2.projectType {
     font-size: 2rem;
     padding-left: 63px;
 }
-div.secondRow {
 
+/*row 2*/
+div.secondRow {
+    background-color: black;
     background-position: center;
     background-size: cover;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-origin: border-box;}
+div.blackBackground {
+    padding: 4rem;
 }
-
+p.clientTitle {
+    font-size: 1.7rem;
+}
+div.descriptionText {
+    font-family: 'Epilogue', sans-serif;
+    color: white;
+    padding-left: 2rem;
+}
+img.projectIcon {
+    width: 100%;
+    padding-left: 4rem;
+}
+    
+/*row 3*/
 div.thirdRow {
-    padding: 40px;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
 }
 
 div.fourthRow {
-    padding: 40px;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    padding-right: 4rem;
 }
 
-img.styleGuide {
-    border: 3px thin;
-}
-
-h1.brandingTitle {
-    text-align: center;
-    font-size: 4vmin;
-    color: black;
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 700;
-}
-
-div.descriptionText {
-    font-family: 'Epilogue', sans-serif;
-
-    padding: 40px;
-    padding-top: 345px;
-    vertical-align: middle;
-    align-content: center;
-}
-
-div.descriptionText1 {
-    font-family: 'Epilogue', sans-serif;
-    padding: 40px;
-    padding-top: 130px;
-    font-size: 1.2vw;
-}
-
-
+img.poster {
+    width: auto;
+    border: .4rem thin black;
 }

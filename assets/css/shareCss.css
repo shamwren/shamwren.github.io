@@ -1,6 +1,7 @@
 html {
     scroll-behavior: smooth;
     font-size: 10px;
+    overflow-x: hidden;
 }
 
 /*navbar*/
@@ -170,7 +171,7 @@ a.easterEgg:hover {
     p.copyText {
         font-size: 1.3rem;}
     div.thirdRow {
-        padding-top: 2rem;
+        padding-top: 1rem;
         padding-left: 0rem;
         padding-right: 1rem;}
     div.fourthRow {
@@ -178,6 +179,14 @@ a.easterEgg:hover {
     div.sixthRow {
         padding-left: 1rem;
         padding-right: 1rem;
+        padding-top: 2rem;
+    }
+    div.descriptionText {
+        padding-left: 2rem;
+    }
+    div.descriptionText2 {
+        padding-left: 1rem;
+        padding-top: 1rem;
     }
     img.cppPhoto {
         align-content: center;
@@ -187,6 +196,8 @@ a.easterEgg:hover {
     img.final1 {
         width: 100%;
         padding-left: 1rem;
+        padding-top: 1.5rem;
+        padding-right: 1rem;
     }
     img.styleGuide {
         padding-top: 2rem;
@@ -195,7 +206,16 @@ a.easterEgg:hover {
     div.fifthRow {
         padding: 1rem;
     }
-    
+    img.poster {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+    }
+    img.bookCover {
+        width: auto;
+        align-content: center;
+        padding-left: rem;
+    }
 
 }
 
