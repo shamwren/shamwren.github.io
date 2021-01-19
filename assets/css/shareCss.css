@@ -3,6 +3,9 @@ html {
     font-size: 10px;
     overflow-x: hidden;
 }
+div.lyricVideo {
+    display: none;
+}
 
 /*navbar*/
 img.navLogo {
@@ -20,6 +23,9 @@ button.navbar-toggler {
     opacity: 50%;
 }
 
+li.nav-item {
+    padding-left: 1rem;
+}
 .customNav li.nav-item.active {
     color: white;
     text-decoration: overline;
@@ -36,6 +42,9 @@ button.navbar-toggler {
 }
 
 .homeButton {
+    display: none;
+}
+li.extrasButton {
     display: none;
 }
 /*scroll to top*/
@@ -106,6 +115,19 @@ a.easterEgg:hover {
         width: 100%;
         padding: 2rem;
         height: 5rem;}
+    li.nav-item {
+        padding-left: 0rem;
+    }
+    h5.card-text {
+        font-size: 1.8rem;
+    }
+    p.card-text {
+        font-size: 1.1rem;
+    }
+    .card-body {
+        width: fit-content;
+    }
+
 /*resume*/
     .contactInfo {
         font-size: 1.4rem;}
@@ -216,7 +238,10 @@ a.easterEgg:hover {
         align-content: center;
         padding-left: rem;
     }
-
+    video.projectIcon {
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 1rem;}
 }
 
 @media only screen and (min-width:430px) {

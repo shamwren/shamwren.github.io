@@ -1,0 +1,58 @@
+html {
+    overflow-x: hidden;
+}
+div.container-fluid {
+    padding-bottom: 30px;
+}
+
+/*copy text*/
+h2.secHeader {
+    font-size: 4rem;
+    font-weight: 500;}
+p.copyText {
+    font-size: 1.5rem;
+}
+
+/*row 1*/
+div.topRow {
+    padding-bottom: 2rem;
+}
+h1.projectTitle {
+    text-align: left;
+    font-size: 6rem;
+    color:#1b1c1e;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    padding-left: 6rem;
+}
+h2.projectType {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-left: 63px;
+}
+
+/*row 2*/
+div.secondRow {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+
+}
+div.blackBackground {
+    padding: 4rem;
+}
+p.clientTitle {
+    font-size: 1.7rem;
+}
+div.descriptionText {
+    font-family: 'Epilogue', sans-serif;
+    color: white;
+    padding-left: 2rem;
+    vertical-align: middle;
+    align-content: center;
+}
+video.projectIcon {
+    padding-left: 4rem;
+}
