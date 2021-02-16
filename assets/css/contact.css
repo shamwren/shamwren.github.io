@@ -9,6 +9,20 @@ html {
     overflow-x: hidden;
 }
 
+body, html {
+    height:100%;
+
+}
+
+.parallax {
+    background-repeat: no-repeat;
+    height:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+}
+
 @media only screen and (max-width: 576px) {
     /* For mobile phones: */
     [class*="col-"] {
