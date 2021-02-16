@@ -1,11 +1,14 @@
-
+body.parallax {
+    background-image: url(/assets/images/gradientBackground2.png);
+    background-repeat: no-repeat;
+    height:max-content
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 
 body {
     font-family: 'Epilogue', sans-serif;
-    background-image: url(/assets/images/gradientBackground2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     margin-bottom: 1rem;
 }
 
