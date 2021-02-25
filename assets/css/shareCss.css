@@ -37,13 +37,6 @@ li.nav-item {
     text-decoration: none;
 }
 
-.dropdown {
-    display: none;
-}
-
-.homeButton {
-    display: none;
-}
 li.extrasButton {
     display: none;
 }

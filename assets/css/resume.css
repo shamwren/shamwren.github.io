@@ -11,9 +11,8 @@ body.page {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 5rem;
-    overflow-x: hidden;
+    overflow-x: ;
 }
-
 
 img.header {
       width: 100%;
