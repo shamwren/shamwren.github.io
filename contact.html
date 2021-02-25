@@ -12,7 +12,7 @@
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item projectsButton active">
+            <li class="nav-item projectsButton">
               <a class="nav-link link--elara link" href="index.html">projects</a>
             </li>
             <li class="nav-item extrasButton">
@@ -21,7 +21,7 @@
             <li class="nav-item">
               <a class="nav-link link--elara link" href="resume.html">resume</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link link--elara link" href="contact.html">contact</a>
             </li>
           </ul>
@@ -58,6 +58,34 @@
 </head>
 
 <body class="parallax">
+
+     <!--top button-->
+     <button onclick="topFunction()" type="button" 
+     class="btn btn-light buttonTop button--skoll" id="topButton" title="scroll to top"><span><span>top</span></span></button>
+     <script>
+       //Get the button
+       var mybutton = document.getElementById("topButton");
+   
+       // When the user scrolls down 20px from the top of the document, show the button
+       window.onscroll = function () {
+         scrollFunction()
+       };
+   
+       function scrollFunction() {
+         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+           mybutton.style.display = "block";
+         } else {
+           mybutton.style.display = "none";
+         }
+       }
+   
+       // When the user clicks on the button, scroll to the top of the document
+       function topFunction() {
+         document.body.scrollTop = 0;
+         document.documentElement.scrollTop = 0;
+       }
+     </script>
+
 <main>
   <div classs="container contactInfo">
     <div class="row">
