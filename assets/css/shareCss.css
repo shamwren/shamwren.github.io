@@ -471,11 +471,16 @@ a.easterEgg:hover {
     .verticalText2 {
         top:14rem;
         margin-top: -9rem;}
+    
 /*projects*/
     img.final1 {
         width: 100%;
         padding-left: 0rem;}
     }
+/*contact*/
+main {
+    height: 80rem;
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
