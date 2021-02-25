@@ -9,14 +9,14 @@ div.lyricVideo {
 
 /*navbar*/
 img.navLogo {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
 }
 
 nav.navbar {
     position: sticky;
-    font-family: Arial, Helvetica, sans-serif;
-    align-items: center;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 800;
 }
 button.navbar-toggler {
     border: none;
@@ -24,20 +24,20 @@ button.navbar-toggler {
 }
 
 li.nav-item {
-    padding-left: 1rem;
+    padding-left: 3.5rem;
 }
+
 .customNav li.nav-item.active {
-    color: white;
-    text-decoration: overline;
+    text-decoration: none;
+    color: black;
 }
 
 .customNav li.nav-item a:hover {
     color: black;
-    text-decoration: overline;
+    text-decoration: none;
 }
 
 .dropdown {
-    font-size: 14px;
     display: none;
 }
 
@@ -47,6 +47,124 @@ li.nav-item {
 li.extrasButton {
     display: none;
 }
+
+/* css effects */
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.js .loading::before,
+.js .loading::after {
+    content: '';
+    position: fixed;
+    z-index: 1000;
+}
+
+.js .loading::before {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--color-bg);
+}
+
+.js .loading::after {
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: 60px;
+    margin: -30px 0 0 -30px;
+    border-radius: 50%;
+    opacity: 0.4;
+    background: var(--color-link);
+    animation: loaderAnim 0.7s linear infinite alternate forwards;
+}
+
+@keyframes loaderAnim {
+    to {
+        opacity: 1;
+        transform: scale3d(0.5, 0.5, 1);
+    }
+}
+
+a.link {
+    text-decoration: none;
+    color: var(--color-link);
+    outline: none;
+}
+
+a.link:hover {
+    color: var(--color-link-hover);
+    outline: none;
+}
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible */
+a.link:focus {
+    /* Provide a fallback style for browsers
+	 that don't support :focus-visible */
+    outline: none;
+    background: lightgrey;
+}
+
+a.link:focus:not(:focus-visible) {
+    /* Remove the focus indicator on mouse-focus for browsers
+	 that do support :focus-visible */
+    background: transparent;
+}
+
+a.link:focus-visible {
+    /* Draw a very noticeable focus style for
+	 keyboard-focus on browsers that do support
+	 :focus-visible */
+    outline: 2px solid red;
+    background: transparent;
+}
+
+.link {
+    cursor: pointer;
+    font-size: 4rem;
+    position: relative;
+    white-space: nowrap;
+    color: var(--color-text);
+}
+
+.link::before,
+.link::after {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    top: 100%;
+    left: 0;
+    pointer-events: none;
+}
+
+.link::before {
+    content: '';
+    /* show by default */
+}
+
+.link--elara::before {
+    transform-origin: 50% 100%;
+    transition: clip-path 0.3s, transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+    clip-path: polygon(0% 0%, 0% 100%, 0 100%, 0 0, 100% 0, 100% 100%, 0 100%, 0 100%, 100% 100%, 100% 0%);
+}
+
+.link--elara:hover::before {
+    transform: translate3d(0, 2px, 0) scale3d(1.08, 3, 1);
+    clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 50% 0, 50% 0, 50% 100%, 50% 100%, 0 100%, 100% 100%, 100% 0%);
+}
+
+.link--elara span {
+    display: inline-block;
+    transition: transform 0.3s cubic-bezier(0.2, 1, 0.8, 1);
+}
+
+.link--elara:hover span {
+    transform: translate3d(0, -2px, 0);
+}
+
 /*scroll to top*/
 #topButton {
     font-family: 'Epilogue', sans-serif;
