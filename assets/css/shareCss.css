@@ -2,6 +2,8 @@ html {
     scroll-behavior: smooth;
     font-size: 10px;
     overflow-x: hidden;
+    height: 100%;
+    min-height: 100%;
 }
 div.lyricVideo {
     display: none;
@@ -259,16 +261,16 @@ h1.projectTitle {
 
 /*footer*/
 footer#bottom  {
-    position: sticky;
+    position: absolute;
     font-family: 'Epilogue', sans-serif;
     font-size: 1rem;
     width: 100%;
     padding: 2rem;
-    height: 5rem;
+ 
 }
-
 div.footer {
-    height: fit-content;}
+    height: fit-content;
+position: relative;}
 
 a.easterEgg {
     color: transparent;
