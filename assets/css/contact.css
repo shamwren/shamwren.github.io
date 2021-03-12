@@ -11,7 +11,7 @@ body, html {
 }
 
 .parallax {
-    background-image: url(/assets/images/gradientBackground.png);
+    background-image: url(/assets/images/gradientBackground.jpg);
     background-repeat: no-repeat;
     height:100%;
     background-attachment: fixed;
