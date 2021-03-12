@@ -49,7 +49,7 @@ h3.center {
     margin-left: auto;
     margin-right: auto;
     width: auto;
-    border-radius: 50%;
+    border-radius: 0%;
 }
 
 p.centerText {
