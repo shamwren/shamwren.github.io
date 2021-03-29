@@ -58,7 +58,7 @@ p.centerText {
     font-weight: 500;
     font-size: 1.5rem;
     color: white;
-    mix-blend-mode: difference;
+    mix-blend-mode: color-dodge;
 }
 .center {
     text-align: center;
