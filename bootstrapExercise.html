@@ -13,13 +13,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">about</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="projects.html">projects</a>
+                <a class="nav-link" href="index.html">projects</a>
               </li>
             <li class="nav-item">
                 <a class="nav-link" href="resume.html">resume</a>
@@ -27,24 +21,60 @@
             <li class="nav-item">
                 <a class="nav-link" href="contact.html">contact</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  miscellaneous
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="cssTraining.html">css training</a>
-                  <a class="dropdown-item" href="bootstrapExercise.html">bootstrap</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
         </ul>
 
     </div>
 </nav>
-
+<nav class="menu">
+    <div class="menu__item">
+        <a class="menu__item-link" href="index.html">projects</a>
+        <img class="menu__item-img" src="/assets/images/3dProduct/3dProduct.jpg" alt="Some image"/>
+        <div class="marquee">
+            <div class="marquee__inner" aria-hidden="true">
+                <span>projects</span>
+                <span>projects</span>
+                <span>projects</span>
+                <span>projects</span>
+            </div>
+        </div>
+    </div>
+    <div class="menu__item">
+        <a class="menu__item-link" href="resume.html">resume</a>
+        <img class="menu__item-img" src="/assets/images/gradientBackground.jpg" alt="Some image"/>
+        <div class="marquee">
+            <div class="marquee__inner" aria-hidden="true">
+                <span>resume</span>
+                <span>resume</span>
+                <span>resume</span>
+                <span>resume</span>
+            </div>
+        </div>
+    </div>
+    <div class="menu__item">
+        <a class="menu__item-link" href="contact.html">contact</a>
+        <img class="menu__item-img" src="/assets/images/myAvatar.jpg" alt="Some image"/>
+        <div class="marquee">
+            <div class="marquee__inner" aria-hidden="true">
+                <span>contact</span>
+                <span>contact</span>
+                <span>contact</span>
+                <span>contact</span>
+            </div>
+        </div>
+    </div>
+    <div class="menu__item">
+        <a class="menu__item-link">Our Crew</a>
+        <img class="menu__item-img" src="img/4.jpg" alt="Some image"/>
+        <div class="marquee">
+            <div class="marquee__inner" aria-hidden="true">
+                <span>The Crew</span>
+                <span>The Crew</span>
+                <span>The Crew</span>
+                <span>The Crew</span>
+            </div>
+        </div>
+    </div>
+</nav>
 <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-5SB42EJ1F9"></script>
@@ -79,6 +109,12 @@ Promise.all([preloadImages('.gallery__figure-img'), preloadFonts('yuz0mhb')]).th
     });
 });
       </script>
+
+<script>
+	document.documentElement.className = "js";
+	var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
+	supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
+	</script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
