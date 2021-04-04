@@ -55,14 +55,14 @@ img.projectIcon {
 }
 /*row 3*/
 div.thirdRow {
-    padding: 40px;
+    padding: 4rem;
 }
 
 div.parallax {
   /* The image used */
   background-image: url("/assets/images/brandingProject/cppArtBuilding.jpg");
   /* Full height */
-  height: 30rem;
+  height: fit-content;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
