@@ -261,7 +261,7 @@ h1.projectTitle {
 
 /*footer*/
 footer#bottom  {
-    position: absolute;
+    position: static;
     font-family: 'Epilogue', sans-serif;
     font-size: 1rem;
     width: 100%;
