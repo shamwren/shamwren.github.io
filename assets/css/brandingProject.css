@@ -58,17 +58,6 @@ div.thirdRow {
     padding: 4rem;
 }
 
-div.parallax {
-  /* The image used */
-  background-image: url("/assets/images/brandingProject/cppArtBuilding.jpg");
-  /* Full height */
-  height: 45rem;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 div.descriptionText1 {
     font-family: 'Epilogue', sans-serif;
     padding-left: 20px;
