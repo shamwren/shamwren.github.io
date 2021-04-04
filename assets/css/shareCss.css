@@ -395,6 +395,12 @@ a.easterEgg:hover {
         padding-left: 1rem;
         padding-top: 1rem;
     }
+    div.parallax {
+        height: 19rem;
+        width:auto;
+        background-attachment: scroll;
+        background-size: contain;
+      }
     img.cppPhoto {
         align-content: center;
         padding: 1rem;
