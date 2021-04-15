@@ -43,6 +43,31 @@ li.extrasButton {
     display: none;
 }
 
+
+/* width scroll bar*/
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: ; 
+    border-radius: 0px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black; 
+    border-radius: 0px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: hotpink; 
+  }
+
+
+
 /* css effects */
 *::after,
 *::before {
