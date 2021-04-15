@@ -51,7 +51,7 @@ li.extrasButton {
   
   /* Track */
   ::-webkit-scrollbar-track {
-    box-shadow: ; 
+    background: none;
     border-radius: 0px;
   }
    
