@@ -3,7 +3,7 @@ body, html {
     height:100%;
 }
 body.page {
-    background-image: url(/assets/images/gradientBiggerComp.png);
+    background-image: url(https://katietju.com/assets/images/gradientBiggerComp.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
