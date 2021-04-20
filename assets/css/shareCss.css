@@ -312,12 +312,10 @@ a.easterEgg:hover {
     #topButton {
         font-size: 1.5rem;
         padding: 1rem;}
-    .button--skoll::before {
+    .button--skoll::before, .button--skoll {
         display: none;
     }
-    .button--skoll {
-        display: none;
-    }
+
     nav.navbar {
         position: sticky;
         font-size:  1.6rem;
