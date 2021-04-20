@@ -37,6 +37,8 @@ div.secondRow {
     background-origin: border-box;}
 div.blackBackground {
     padding: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 p.clientTitle {
     font-size: 1.7rem;
@@ -47,7 +49,8 @@ div.descriptionText {
     padding-left: 2rem;
 }
 img.projectIcon {
-    width: 100%;
+    height: 34rem;
+    width: auto;
     padding-left: 4rem;
 }
     
@@ -67,4 +70,24 @@ div.fourthRow {
 img.poster {
     width: auto;
     border: .4rem thin black;
+}
+
+/*media queries breakpoint*/
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    img.projectIcon {
+        width: 100%;
+        height: auto;
+        padding-left: 2rem;
+        padding-right: 1rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    img.projectIcon {
+        width: 100%;
+        height: auto;
+        padding-right: 2rem;
+    }
 }

@@ -37,6 +37,8 @@ div.secondRow {
 }
 div.blackBackground {
     padding: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 p.clientTitle {
     font-size: 1.7rem;

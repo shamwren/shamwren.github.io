@@ -37,6 +37,8 @@ div.secondRow {
 }
 div.blackBackground {
     padding: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 p.clientTitle {
     font-size: 1.7rem;
@@ -72,9 +74,14 @@ img.cppPhoto {
 div.fourthRow {
     padding: 4rem;
 }
-img.progress1 img.progress2 {
+img.progress1  {
     width: 100%;
     padding-left: 4rem;
+}
+
+img.progress2 {
+    width: auto;
+    height: auto;
 }
 
 h2.centerHead {
