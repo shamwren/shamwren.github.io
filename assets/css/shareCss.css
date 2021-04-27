@@ -43,7 +43,7 @@ li.nav-item {
 li.extrasButton {
     display: none;
 }
-
+/*if youre reading this coding is hard and i tried rip*/
 
 /* width scroll bar*/
 ::-webkit-scrollbar {
@@ -189,8 +189,8 @@ a.link:focus-visible {
 /*scroll to top*/
 #topButton {
     position: fixed;
-    bottom: 2rem;
-    right: 3rem;
+    bottom: .5rem;
+    right: .5rem;
     z-index: 99;
     border: none;
     outline: none;
