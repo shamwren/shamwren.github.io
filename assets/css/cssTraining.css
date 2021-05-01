@@ -57,10 +57,13 @@ p.clientTitle, p.copyText {
 .projectProcess {
     margin-top: 22rem;
 }
-.pandemicInfographic {
+.projectProcess2 {
+    margin-top: 0rem;
+}
+.imageA {
     padding-left: 6.2rem;
 }
-.pandemicInfographicB {
+.imageB {
     padding-right: 6.2rem;
 }
 .projectCredit {
@@ -122,11 +125,11 @@ p.clientTitle, p.copyText {
     .projectProcess {
         margin-top: 6rem;
     }
-    .pandemicInfographic {
+    .imageA {
         padding-left: 2rem;
         padding-right: 2rem;
     }
-    .pandemicInfographicB {
+    .imageB {
         padding-right: 2rem;
         padding-left: 2rem;
     }
@@ -175,11 +178,11 @@ p.clientTitle, p.copyText {
     .projectProcess {
         margin-top: 5rem;
     }
-    .pandemicInfographic {
+    .imageA {
         padding-left: 5rem;
         padding-right: 5rem;
     }
-    .pandemicInfographicB {
+    .imageB {
         padding-left: 5rem;
         padding-right: 5rem;
     }
@@ -221,13 +224,16 @@ p.clientTitle, p.copyText {
     .projectProcess {
         margin-top: 18rem;
     }
-    .pandemicInfographic {
+    .imageA {
         padding-left: 5rem;
         padding-right: 0rem;
     }
-    .pandemicInfographicB {
+    .imageB {
         padding-left: 0rem;
         padding-right: 5rem;
+    }
+    .projectProcess2 {
+        margin-top: 2rem;
     }
 }
 
@@ -266,5 +272,8 @@ p.clientTitle, p.copyText {
     }
     .projectProcess {
         margin-top: 26rem;
+    }
+    .projectProcess2 {
+        margin-top: 2rem;
     }
 }

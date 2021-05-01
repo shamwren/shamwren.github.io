@@ -57,7 +57,7 @@ li.extrasButton {
   }
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: hotpink; 
+    background: #ed9da1; 
   }
 
 
@@ -282,7 +282,7 @@ a.easterEgg {
     text-decoration: none;}
 a.easterEgg:hover {
     text-decoration: none;
-    color: hotpink;}
+    color: #ed9da1;}
 
 
 /*media queries breakpoint*/
@@ -359,74 +359,7 @@ a.easterEgg:hover {
         top:16rem;
     }
 /*projects*/
-    img.progress1 {
-        padding-left: 1rem;
-        padding-right:.5rem}
-    img.progress2 {
-        padding-left:01rem;
-        padding-right:1rem}
-    div.blackBackground {
-        padding-left: 1rem;
-        padding-top: 2rem;
-        padding-right: 2rem;
-        padding-bottom: 1rem;}
-    h2.secHeader {
-        text-align: center;
-        padding-bottom:.2rem;}
-    p.clientTitle {
-        font-size: 1.18rem;}
-    p.copyText {
-        font-size: 1.3rem;}
-    div.thirdRow {
-        padding-top: 1rem;
-        padding-left: 0rem;
-        padding-right: 1rem;}
-    div.fourthRow {
-        padding: 1rem;}
-    div.sixthRow {
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 2rem;
-    }
-    div.descriptionText {
-        padding-left: 2rem;
-    }
-    div.descriptionText2 {
-        padding-left: 1rem;
-        padding-top: 1rem;
-    }
-    img.cppPhoto {
-        align-content: center;
-        padding: 1rem;
-        padding-left: 2rem;
-    }
-    img.final1 {
-        width: 100%;
-        padding-left: 1rem;
-        padding-top: 1.5rem;
-        padding-right: 1rem;
-    }
-    img.styleGuide {
-        padding-top: 2rem;
-        padding-left: 1rem;
-    }
-    div.fifthRow {
-        padding: 1rem;
-    }
-    img.poster {
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-left: 1rem;
-    }
-    img.bookCover {
-        width: auto;
-        align-content: center;
-        padding-left: rem;
-    }
-    video.projectIcon {
-        width: 100%;
-        padding-left: 2rem;
-        padding-right: 1rem;}
+ 
 
     /*contact*/
     .profilePhoto {
