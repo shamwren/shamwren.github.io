@@ -1,77 +1,270 @@
-html {
-    overflow-x: hidden;
-    height: 100%;
-}
-body {
-    height: 100%;
-}
 div.container-fluid {
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+}
+.projectArrowLeft, .projectArrowRight {
+    color: black;
+    font-size: 5rem;
+}
+.projectArrowLeft:hover, .projectArrowRight:hover {
+    color: hotpink;
+}
+.projectArrowLeft {
+    position: fixed;
+    bottom: 1rem;
+    left: .8rem;
+    z-index: 99;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    display: ;
+}
+.projectArrowRight {
+    position: fixed;
+    bottom: 1rem;
+    right: .8rem;
+    z-index: 99;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    display: ;
 }
 
-/*row 1*/
-div.topRow {
-    padding-bottom: 2rem;
+.projectOverview {
+    padding-left: 17rem;
 }
-h1.projectTitle {
-    text-align: left;
-    font-size: 6rem;
-    color:#1b1c1e;
+div.redBox {
+    background-color: #c72420;
+}
+.projectTitle {
+    color: #ed9da1;
+    font-size: 3rem;
     font-family: 'Epilogue', sans-serif;
-    font-weight: 700;
-    padding-left: 6rem;
 }
-h2.projectType {
+.projectType {
     font-family: 'Epilogue', sans-serif;
-    font-weight: 300;
-    font-size: 2rem;
-    padding-left: 63px;
 }
-/*row 2*/
-div.secondRow {
-    background-color: black;
-    background-position: center;
-    background-size: cover;
-    background-origin: border-box;
-
+div.content {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
 }
-div.blackBackground {
-    padding: 4rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-p.clientTitle {
-    font-size: 1.7rem;
-}
-div.descriptionText {
+p.clientTitle, p.copyText {
+    font-size: 1.4rem;
     font-family: 'Epilogue', sans-serif;
-    color: white;
-    padding-top: ;
-    padding-left: 2rem;
-    vertical-align: middle;
-    align-content: center;
 }
-img.projectIcon {
-    width: 100%;
-    padding-left: 4rem;
+.projectIcon {
+    padding-right: 6.2rem;
 }
-/*row 4*/
-div.fourthRow {
-    padding: 4rem;
+.projectProcess {
+    margin-top: 22rem;
 }
-img.pandemicInfographic {
-    width: auto;
-    align-content: center;
-    padding-left: 1rem;
+.pandemicInfographic {
+    padding-left: 6.2rem;
 }
-
-/*copy text*/
-h2.secHeader {
-    font-size: 4rem;
-    font-weight: 500;}
-p.copyText {
-    font-size: 1.5rem;
+.pandemicInfographicB {
+    padding-right: 6.2rem;
+}
+.projectCredit {
+    padding-top: 19rem;
+    font-size: 1.4rem;
+    font-family: 'Epilogue', sans-serif;
 }
 
 
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    div.container-fluid {
+        padding-top: 0rem;
+    }
+    /*arrows*/
+    .projectArrowLeft, .projectArrowRight {
+        font-size: 2rem;
+    }
+    .projectArrowLeft {
+        bottom: 1rem;
+        left: .5rem;
+    }
+    .projectArrowRight {;
+        bottom: 1rem;
+        right: .5rem;
+    }
+    /*projects*/
+    .projectOverview {
+        padding-left: 2rem;
+    }
+    .projectIcon {
+        width: 100%;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+    div.redBox {
+        width: 24rem;
+    }
+    .projectTitle {
+        font-size: 2rem;
+    }
+    .projectType {
+        font-size: 1.4rem;
+    }
+    div.content {
+        padding-top: 2rem;
+        padding-bottom: .3rem;
+        padding-right: 1.8rem;
+    }
+    p.clientTitle, p.copyText {
+        font-size: 1.2rem;
+        font-family: 'Epilogue', sans-serif;
+    }
+    .projectCredit {
+        padding-top: .3rem;
+        font-size: 1.2rem;
+        font-family: 'Epilogue', sans-serif;
+    }
+    .projectProcess {
+        margin-top: 6rem;
+    }
+    .pandemicInfographic {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .pandemicInfographicB {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
 
+}
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    div.container-fluid {
+        padding-top: 0rem;
+    }
+    /*projects*/
+    .projectOverview {
+        padding-left: 5rem;
+        padding-right: 2.5rem;
+    }
+    div.redBox {
+        width: 37rem;
+    }
+    .projectTitle {
+        font-size: 2.8rem;
+    }
+    .projectType {
+        font-size: 1.6rem;
+    }
+    div.content {
+        padding-top: .3rem;
+        padding-bottom: .7rem;
+        padding-right: 1.8rem;
+    }
+    p.clientTitle, p.copyText {
+        font-size: 1.2rem;
+        font-family: 'Epilogue', sans-serif;
+    }
+    .projectCredit {
+        padding-top: .3rem;
+        font-size: 1.2rem;
+        font-family: 'Epilogue', sans-serif;
+    }
+    .projectIcon {
+        width: 100%;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
+    .projectProcess {
+        margin-top: 5rem;
+    }
+    .pandemicInfographic {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .pandemicInfographicB {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    div.container-fluid {
+        padding-top: 8rem;
+    }
+    /*projects*/
+    .projectOverview {
+        padding-left: 5rem;
+        padding-right: 2.5rem;
+    }
+    div.redBox {
+        width: 20.9rem;
+    }
+    .projectTitle {
+        font-size: 1.8rem;
+    }
+    .projectType {
+        font-size: 1.3rem;
+    }
+    div.content {
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+        padding-right: 1.8rem;
+    }
+    p.clientTitle, p.copyText {
+        font-size: 1.rem;
+    }
+    .projectCredit {
+        padding-top: 1rem;
+        font-size: 1.2rem;
+    }
+    .projectProcess {
+        margin-top: 18rem;
+    }
+    .pandemicInfographic {
+        padding-left: 5rem;
+        padding-right: 0rem;
+    }
+    .pandemicInfographicB {
+        padding-left: 0rem;
+        padding-right: 5rem;
+    }
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    div.container-fluid {
+        padding-top: 6rem;
+    }
+    /*projects*/
+    .projectOverview {
+        padding-left: 5rem;
+        padding-right: 2.5rem;
+    }
+    div.redBox {
+        width: 35.9rem;
+    }
+    .projectTitle {
+        font-size: 3rem;
+    }
+    .projectType {
+        font-size: 2rem;
+    }
+    div.content {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.8rem;
+    }
+    p.clientTitle, p.copyText {
+        font-size: 1.4rem;
+    }
+    .projectCredit {
+        padding-top: 28rem;
+        font-size: 1.4rem;
+    }
+    .projectProcess {
+        margin-top: 26rem;
+    }
+}
