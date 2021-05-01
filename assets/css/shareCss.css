@@ -153,7 +153,6 @@ a.link:focus-visible {
   white-space: nowrap;
   color: var(--color-text);
 }
-
 .link::before,
 .link::after {
   position: absolute;
@@ -249,6 +248,7 @@ a.easterEgg:hover {
       margin-bottom: 1rem;
   }
   footer#bottom  {
+      padding-top: 2rem;
       padding-left: 2rem;
       height: 3rem;
     }
