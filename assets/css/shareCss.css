@@ -12,24 +12,21 @@ div.lyricVideo {
 
 /*navbar*/
 img.navLogo {
-    height: 11rem;
-    width: 11rem;
+    height: 6rem;
+    width: 6rem;
 }
-
 nav.navbar {
     position: sticky;
     font-family: 'Epilogue', sans-serif;
-    font-weight: 800;
+    font-weight: 400;
 }
 button.navbar-toggler {
     border: none;
     opacity: 50%;
 }
-
 li.nav-item {
-    padding-left: 3.5rem;
+    padding-left: 1rem;
 }
-
 .customNav li.nav-item.active {
     text-decoration: none;
     color: black;
@@ -49,19 +46,16 @@ li.extrasButton {
 ::-webkit-scrollbar {
     width: 8px;
   }
-  
   /* Track */
   ::-webkit-scrollbar-track {
     background: white;
     border-radius: 0px;
   }
-   
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: black; 
     border-radius: 0px;
   }
-  
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: hotpink; 
@@ -144,7 +138,7 @@ a.link:focus-visible {
 
 .link {
     cursor: pointer;
-    font-size: 4rem;
+    font-size: 2rem;
     position: relative;
     white-space: nowrap;
     color: var(--color-text);
@@ -198,7 +192,6 @@ a.link:focus-visible {
     display: none;
     border-radius: 50%;
 }
-
 .buttonTop {
 	pointer-events: auto;
 	cursor: pointer;
@@ -210,7 +203,6 @@ a.link:focus-visible {
 	position: relative;
 	display: inline-block;
 }
-
 .buttonTop::before,
 .buttonTop::after {
 	position: absolute;
@@ -242,7 +234,6 @@ a.link:focus-visible {
 	overflow: hidden;
 	mix-blend-mode: difference;
 }
-
 .button--skoll:hover > span > span {
 	animation: MoveUpInitial 0.2s forwards, MoveUpEnd 0.2s forwards 0.2s;
 }
@@ -274,16 +265,6 @@ a.link:focus-visible {
 	transform: translate3d(0,100%,0);
 }
 
-/*project pages*/
-h1.projectTitle {
-
-}
-.clientTitle {
-
-}
-.projectType {
-
-}
 
 /*footer*/
 footer#bottom  {
@@ -292,19 +273,18 @@ footer#bottom  {
     font-size: 1rem;
     width: 100%;
     padding: 2rem;
- 
+    padding-left: 6rem;      
 }
 div.footer {
-    height: fit-content;
-position: relative;}
-
+    height: fit-content;    
+    position: relative;}
 a.easterEgg {
     color: transparent;
     text-decoration: none;}
-
 a.easterEgg:hover {
     text-decoration: none;
     color: hotpink;}
+
 
 /*media queries breakpoint*/
 /* Extra small devices (phones, 576px and down) */
@@ -319,10 +299,11 @@ a.easterEgg:hover {
     nav.navbar {
         position: sticky;
         font-size:  1.6rem;
-        padding-top: 3rem;
-        padding-left: 2.5rem;
-        padding-bottom: 3rem;
-        padding-right: 2.5rem;}
+        padding-left: 3.5rem;
+        padding-right: 2.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
     footer#bottom  {
         position: sticky;
         font-family: 'Epilogue', sans-serif;
@@ -331,7 +312,9 @@ a.easterEgg:hover {
         padding: 2rem;
         height: 5rem;}
     li.nav-item {
+        padding-top: .5rem;
         padding-left: 0rem;
+        text-align: right;
     }
     h5.card-text {
         font-size: 1.8rem;
@@ -377,18 +360,6 @@ a.easterEgg:hover {
         top:16rem;
     }
 /*projects*/
-    h1.projectTitle {
-        font-size: 4rem;
-        padding-left: 1rem;}
-    h2.projectType {
-        font-size: 1.7rem;
-        padding-left: 1.2rem;}
-    h2.secHeader {
-        font-size: 3rem;}
-    img.projectIcon {
-        width: 100%;
-        padding-left: 2rem;
-        padding-right: 1rem;}
     img.progress1 {
         padding-left: 1rem;
         padding-right:.5rem}
@@ -501,12 +472,19 @@ a.easterEgg:hover {
 		animation: none !important;
 	}
     nav.navbar {        
+        padding-left: 6.6rem;
+        padding-right: 5rem;
+    }
+        li.nav-item, li.nav-itemA {
+        padding-top: .5rem;
+        padding-left: 0rem;
+        text-align: right;
+    }
+    footer#bottom  {
         position: sticky;
-        font-size:  1.6rem;
-        padding-top: 3rem;
-        padding-left: 2.4rem;
-        padding-bottom: 4rem;
-        padding-right: 2.4rem;}
+        height: 5rem;
+        padding-left: 4.8rem;
+    }
 /*resume*/
     .verticalText2 {
         top:14rem;
@@ -519,7 +497,7 @@ a.easterEgg:hover {
     }
 /*contact*/
 main {
-    height: 80rem;
+    height: 60rem;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -545,12 +523,13 @@ main {
 		-ms-animation: none !important;
 		animation: none !important;
 	}
-    nav.navbar {
-        font-size:  1.5rem;
-        padding-top: 6rem;
-        padding-left: 7.7rem;
-        padding-bottom: 4rem;
-        padding-right: 7.7rem;}
+    nav.navbar {        
+        padding-left: 6.4rem;
+        padding-right: 4.9rem;
+    }
+        li.nav-item {
+        padding-top: .5rem;
+    }
 /*resume*/
     .verticalText2 {
         top:10.3rem;
@@ -560,15 +539,13 @@ main {
         top:17rem;
     }
 
-/*projects*/
-    img.final1 {
-        width: 100%;
-        padding-left: 0rem;}
-}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     #topButton {font-size: 1.8rem;}
+    li.nav-item {
+        padding-left: 6rem;
+    }
 /*resume*/
     ul.personalSkills {
         font-size: 1.8rem;
@@ -582,6 +559,7 @@ main {
         top:15rem;
     }
 }
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {

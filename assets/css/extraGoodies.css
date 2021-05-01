@@ -2,7 +2,7 @@
     position: absolute;
     display:block;
     min-width: 100%;
-    min-height: 100vh;
+    min-height: ;
     top: 0;
     right: 0;
     bottom: 0;
@@ -17,6 +17,6 @@ body {
 }
 
 main {
-    margin-bottom: 50px;
-    height: 625px;
+    margin-bottom:;
+    height: fit-content;
 }
