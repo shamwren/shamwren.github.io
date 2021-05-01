@@ -1,5 +1,5 @@
 .parallax {
-    background-image: url(https://katietju.com/);
+    background-image: url();
     background-repeat: no-repeat;
     height:100%;
     background-attachment: fixed;
@@ -9,14 +9,16 @@
 
 body {
     font-family: 'Epilogue', sans-serif;
-    margin-bottom: 1rem;
+    margin-bottom: rem;
 }
 html, body {
     height:100%;
 }
 
 div.container-fluid {
-    padding: 4rem;
+    padding-top: 9rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .card:hover {
@@ -27,7 +29,7 @@ div.container-fluid {
 .card-img-top {
     opacity: 1;
     display: block;
-    width: 100%;
+    width: fit-content;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -55,11 +57,13 @@ div.container-fluid {
 .card-text {
     background-color: black;
     color: white;
-    padding: 10px 10px;
+    padding: 1rem 1rem;
     position: relative;
 }
 div.card {
-border: none;
+    border: none;
+    width: auto;
+    height: auto;
 }
 
 .card-img-top {
@@ -71,11 +75,57 @@ border: none;
 h5.card-text {
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
 
 p.card-text {
     font-family:'Epilogue', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 300;
+}
+
+/*media queries breakpoint*/
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    div.container-fluid {
+        padding-top: 0rem;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+    div.container-fluid {
+        padding-top: 2rem;
+        padding-left: 6.7rem;
+        padding-right: 5.8rem;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .empty {
+        display: none;
+    }
+    div.container-fluid {
+        padding-top: 4rem;
+        padding-left: 6.5rem;
+        padding-right: 6rem;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .empty {
+        display: initial;
+    }
+    div.container-fluid {
+        padding-top: 3rem;
+        padding-left: 6.5rem;
+        padding-right: 6rem;
+    }
 }

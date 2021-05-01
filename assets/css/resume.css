@@ -29,7 +29,7 @@ img.header {
 }
 
 a.contactInfo:hover {
-    background-color: hotpink;
+    background-color:  #c72420;
     color: white;
     text-decoration: none;
 }
@@ -37,7 +37,7 @@ a.contactInfo:hover {
 a.projectsText .smallBold:hover {
     color: white;
     text-decoration: none;
-    background-color: hotpink;
+    background-color:  #c72420;
 }
 a.projectsText:hover {
     text-decoration: none;

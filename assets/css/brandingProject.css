@@ -6,7 +6,7 @@ div.container-fluid {
     font-size: 5rem;
 }
 .projectArrowLeft:hover, .projectArrowRight:hover {
-    color: hotpink;
+    color: #c72420;
 }
 .projectArrowLeft {
     position: fixed;
