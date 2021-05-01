@@ -91,6 +91,11 @@ p.clientTitle, p.copyText {
     .projectOverview {
         padding-left: 2rem;
     }
+    .projectIcon {
+        width: 100%;
+        padding-right: 2rem;
+        padding-bottom: 2rem;
+    }
     div.redBox {
         width: 24rem;
     }
@@ -101,8 +106,8 @@ p.clientTitle, p.copyText {
         font-size: 1.4rem;
     }
     div.content {
-        padding-top: 1.8rem;
-        padding-bottom: 1.8rem;
+        padding-top: 2rem;
+        padding-bottom: .3rem;
         padding-right: 1.8rem;
     }
     p.clientTitle, p.copyText {
@@ -110,24 +115,20 @@ p.clientTitle, p.copyText {
         font-family: 'Epilogue', sans-serif;
     }
     .projectCredit {
-        padding-top: 1rem;
+        padding-top: .3rem;
         font-size: 1.2rem;
         font-family: 'Epilogue', sans-serif;
     }
-    .projectIcon {
-        width: 100%;
-        padding-right: 2rem;
-        padding-bottom: 2rem;
-    
-    }
     .projectProcess {
-        margin-top: 12rem;
+        margin-top: 6rem;
     }
     .pandemicInfographic {
         padding-left: 2rem;
+        padding-right: 2rem;
     }
     .pandemicInfographicB {
         padding-right: 2rem;
+        padding-left: 2rem;
     }
 
 }
@@ -219,6 +220,14 @@ p.clientTitle, p.copyText {
     }
     .projectProcess {
         margin-top: 18rem;
+    }
+    .pandemicInfographic {
+        padding-left: 5rem;
+        padding-right: 0rem;
+    }
+    .pandemicInfographicB {
+        padding-left: 0rem;
+        padding-right: 5rem;
     }
 }
 
