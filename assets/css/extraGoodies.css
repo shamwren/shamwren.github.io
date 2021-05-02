@@ -12,6 +12,9 @@
     display: ;
 }
 
+html {
+    font-size: 10px;
+}
 body {
 
 }
@@ -19,4 +22,12 @@ body {
 main {
     margin-bottom:;
     height: fit-content;
+}
+h1 {
+    font-size: 1.4rem;
+    font-family: monospace;
+    color: black;
+    text-decoration: center;
+    padding-top: 25rem;
+    mix-blend-mode: screen;
 }

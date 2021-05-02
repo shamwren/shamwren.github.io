@@ -188,7 +188,7 @@ a.link:focus-visible {
 #topButton {
   position: fixed;
   bottom: .2rem;
-  left: 46.5vw;
+  left: 47vw;
   z-index: 99;
   border: none;
   outline: 0;
@@ -274,31 +274,31 @@ a.easterEgg:hover {
       font-size: 1.8rem;
       padding: .8rem;
       } 
-  .verticalText {
-      top:18.2rem;
-  }   
   .verticalText2 {
-      top:12.6rem;
-      margin-top: -9rem;
+        top:14rem;
+        margin-top: -9rem;
   }
+  .verticalText {
+      top:27rem;
+  }   
   .verticalText3 {
       top:12rem;
       margin-top: -100px;
   }
   .verticalText4 {
-      top:20.4rem;
+      top:25rem;
   }
   .verticalText8 {
-      top:18rem;
+      top:25rem;
   }
   .verticalText5 {
-      top:15.6rem;
+      top:16rem;
   }
   .verticalText6 {
       top:11.3rem;
   }
   .verticalText7 {
-      top:16rem;
+      top:18rem;
   }
 /*projects*/
 
@@ -308,15 +308,45 @@ a.easterEgg:hover {
       height: 16rem;
   }
 }
-
+@media only screen and (min-width:372px) {
+  .verticalText2 {
+    top:13rem;
+    margin-top: -9rem;
+  }
+  .verticalText8 {
+    top:21rem;
+}
+.verticalText {
+  top:23rem;
+}
+}
 @media only screen and (min-width:430px) {
   .verticalText2 {
-      top:10.62rem;
+      top:13rem;
       margin-top: -9rem;
   }
   .verticalText7 {
       top:15rem;
   }
+  .verticalText {
+    top:21rem;
+}   
+.verticalText3 {
+    top:12rem;
+    margin-top: -100px;
+}
+.verticalText4 {
+    top:19rem;
+}
+.verticalText8 {
+    top:19rem;
+}
+.verticalText5 {
+    top:16rem;
+}
+.verticalText6 {
+    top:11.3rem;
+}
 }
 
 
@@ -355,10 +385,19 @@ a.easterEgg:hover {
     padding-left: 6rem;
   }
 /*resume*/
-  .verticalText2 {
-      top:14rem;
-      margin-top: -9rem;}
-  
+.verticalText{
+  top: 24rem;
+}
+.verticalText2 {
+  top:16rem;
+  margin-top: -9rem;
+}
+.verticalText7 {
+  top:18rem;
+}
+.verticalText8 {
+  top:22rem;
+}
 /*projects*/
 
 /*contact*/
@@ -396,17 +435,29 @@ main {
       padding-top: .5rem;
   }
   footer#bottom  {
-    padding-left: 6rem;
+    padding-left: 5.6rem;
   }
 /*resume*/
+.verticalText {
+  top:17rem;
+}
   .verticalText2 {
       top:10.3rem;
       margin-top: -9rem;
   }
+  .verticalText5 {
+    top:14rem;
+}
   .verticalText7 {
-      top:17rem;
+      top:18rem;
   }
-
+  .verticalText8 {
+    top:17rem;
+}
+  .verticalText4 {
+    top:16rem;
+   }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -414,7 +465,7 @@ main {
       padding-left: 6rem;
   }
     footer#bottom {
-      padding-left: 0rem;
+      padding-left: 5.5rem;
   }
 /*resume*/
   ul.personalSkills {
@@ -428,6 +479,9 @@ main {
   .verticalText7 {
       top:15rem;
   }
+  .verticalText4 {
+    top:17rem;
+   }
 }
 
 

@@ -47,7 +47,7 @@ div.container-fluid {
 }
 
 .entireCard:hover .card-img-top {
-    opacity: 0.3;
+    opacity: 0.7;
 }
 
 .entireCard:hover .hoverType {
@@ -57,8 +57,9 @@ div.container-fluid {
 .card-text {
     background-color: black;
     color: white;
-    padding: 1rem 1rem;
+    padding: .7rem .7rem;
     position: relative;
+
 }
 div.card {
     border: none;
@@ -75,7 +76,7 @@ div.card {
 h5.card-text {
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 p.card-text {

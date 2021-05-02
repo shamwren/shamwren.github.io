@@ -11,30 +11,32 @@ body, html {
 }
 
 .parallax {
-    background-image: url(https://katietju.com/assets/images/gradientBackground.jpg);
+    background-image:linear-gradient(50deg,#ed9da1 10%, #c72420), url(https://katietju.com/assets/images/gradientBackground.jpg);
     background-repeat: no-repeat;
     height:100%;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    
 }
 }
 
-@media only screen and (max-width: 576px) {
-    /* For mobile phones: */
-    [class*="col-"] {
-    width: 100%;}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    main {
+        padding-top: 4rem;
+    }
 }
 
 main {
-    margin-bottom: 7rem;
+    margin-bottom: 8rem;
     height: 70rem;
-    padding-top: 4rem;
+    padding-top: rem;
 }
 
 h1.center {
     text-align: center;
-    font-size: 50px;
+    font-size: 5rem;
     color: white;
     font-family: 'Epilogue', sans-serif;
     font-weight: 700;
@@ -52,12 +54,18 @@ h3.center {
     width: auto;
     border-radius: 0%;
 }
-
+p.aboutText {
+    text-align: center;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: white;
+}
 p.centerText {
     text-align: center;
     font-family: 'Epilogue', sans-serif;
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 1.4rem;
     color: white;
 }
 .center {
@@ -66,7 +74,7 @@ p.centerText {
 }
 h4.center {
     text-align: center;
-    font-size: 15px;
+    font-size: 1.3rem;
     font-weight: 300;
     color: white;
 }
@@ -84,3 +92,5 @@ h4.center {
 .contactInfoIcon:hover {
     color: #c72420;
 }
+
+
