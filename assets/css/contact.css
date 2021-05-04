@@ -10,6 +10,19 @@ body, html {
     height:100%;
 }
 
+#vantaTrunk {
+    position: absolute;
+    display:block;
+    min-width: 100%;
+    min-height: fit-content;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background-size: cover;
+    display: ;
+}
 .parallax {
     background-image:linear-gradient(50deg,#ed9da1 10%, #c72420), url(https://katietju.com/assets/images/gradientBackground.jpg);
     background-repeat: no-repeat;
@@ -18,7 +31,6 @@ body, html {
     background-position: center;
     background-size: cover;
     
-}
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

@@ -276,4 +276,8 @@ p.clientTitle, p.copyText {
     .projectProcess2 {
         margin-top: 2rem;
     }
+    img.svg {
+        height: 27rem;
+        width: auto;
+    }
 }

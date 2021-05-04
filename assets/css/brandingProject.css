@@ -6,7 +6,7 @@ div.container-fluid {
     font-size: 5rem;
 }
 .projectArrowLeft:hover, .projectArrowRight:hover {
-    color: #c72420;
+    color: hotpink;
 }
 .projectArrowLeft {
     position: fixed;
@@ -58,7 +58,7 @@ p.clientTitle, p.copyText {
     margin-top: 22rem;
 }
 .projectProcess2 {
-    padding-top: 1rem;
+    margin-top: 1rem;
 }
 .imageA {
     padding-left: 6.2rem;
@@ -67,9 +67,16 @@ p.clientTitle, p.copyText {
     padding-right: 6.2rem;
 }
 .projectCredit {
-    padding-top: 17rem;
+    padding-top: 19rem;
     font-size: 1.4rem;
     font-family: 'Epilogue', sans-serif;
+}
+p.processTextL {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1rem;
 }
 
 
@@ -125,18 +132,13 @@ p.clientTitle, p.copyText {
     .projectProcess {
         margin-top: 6rem;
     }
-    .projectProcess2 {
-        padding-top: .5rem;
-    }
     .imageA {
         padding-left: 2rem;
         padding-right: 2rem;
-        padding-top: .5rem;
     }
     .imageB {
         padding-right: 2rem;
         padding-left: 2rem;
-        padding-top: .5rem;
     }
 
 }
@@ -191,7 +193,10 @@ p.clientTitle, p.copyText {
         padding-left: 5rem;
         padding-right: 5rem;
     }
-
+    p.processTextL {
+        padding-left: 5rem;
+        padding-right: 2rem;
+    }
 }
 
 
@@ -247,6 +252,7 @@ p.clientTitle, p.copyText {
 
 
 
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     div.container-fluid {
@@ -275,7 +281,7 @@ p.clientTitle, p.copyText {
         font-size: 1.4rem;
     }
     .projectCredit {
-        padding-top: 23rem;
+        padding-top: 18rem;
         font-size: 1.4rem;
     }
     .projectProcess {
@@ -283,8 +289,5 @@ p.clientTitle, p.copyText {
     }
     .projectProcess2 {
         margin-top: 2rem;
-    }
-    .gif {
-        width: 50%;
     }
 }

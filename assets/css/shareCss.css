@@ -175,6 +175,7 @@ a.link:focus-visible {
 .link--elara:hover::before {
   transform: translate3d(0, 2px, 0) scale3d(1.08, 3, 1);
   clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 50% 0, 50% 0, 50% 100%, 50% 100%, 0 100%, 100% 100%, 100% 0%);
+  color: #c72420;
 }
 .link--elara span {
   display: inline-block;
@@ -204,6 +205,7 @@ margin: 0;
 font-size: 3rem;
 position: relative;
 display: inline-block;
+mix-blend-mode: difference;
 }
 .buttonTop:hover {
   color: #c72420;
