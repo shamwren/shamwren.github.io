@@ -58,7 +58,7 @@ p.clientTitle, p.copyText {
     margin-top: 22rem;
 }
 .projectProcess2 {
-    margin-top: 0rem;
+    padding-top: 1rem;
 }
 .imageA {
     padding-left: 6.2rem;
@@ -125,13 +125,18 @@ p.clientTitle, p.copyText {
     .projectProcess {
         margin-top: 6rem;
     }
+    .projectProcess2 {
+        padding-top: .5rem;
+    }
     .imageA {
         padding-left: 2rem;
         padding-right: 2rem;
+        padding-top: .5rem;
     }
     .imageB {
         padding-right: 2rem;
         padding-left: 2rem;
+        padding-top: .5rem;
     }
 
 }
@@ -235,6 +240,9 @@ p.clientTitle, p.copyText {
     .projectProcess2 {
         margin-top: 2rem;
     }
+    .gif {
+        width: 60%;
+    }
 }
 
 
@@ -275,5 +283,8 @@ p.clientTitle, p.copyText {
     }
     .projectProcess2 {
         margin-top: 2rem;
+    }
+    .gif {
+        width: 50%;
     }
 }
