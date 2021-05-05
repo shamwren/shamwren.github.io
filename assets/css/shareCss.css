@@ -303,6 +303,10 @@ a.easterEgg:hover {
       top:18rem;
   }
 
+   /*contact*/
+   .profilePhoto {
+    height: 16rem;
+   }
 /*arrows*/
 .projectArrowLeft, .projectArrowRight {
   font-size: 2rem;
