@@ -302,12 +302,62 @@ a.easterEgg:hover {
   .verticalText7 {
       top:18rem;
   }
+
+/*arrows*/
+.projectArrowLeft, .projectArrowRight {
+  font-size: 2rem;
+}
+.projectArrowLeft {
+  bottom: 1rem;
+  left: .5rem;
+}
+.projectArrowRight {;
+  bottom: 1rem;
+  right: .5rem;
+}
 /*projects*/
-
-
-  /*contact*/
-  .profilePhoto {
-      height: 16rem;
+/*projects*/
+  .projectOverview {
+    padding-left: 2rem;
+  }
+  .projectIcon {
+    width: 100%;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+  }
+  div.redBox {
+    width: 24rem;
+  }
+  .projectTitle {
+    font-size: 2rem;
+  }
+  .projectType {
+    font-size: 1.4rem;
+  }
+  div.content {
+    padding-top: 2rem;
+    padding-bottom: .3rem;
+    padding-right: 1.8rem;
+  }
+  p.clientTitle, p.copyText {
+    font-size: 1.2rem;
+    font-family: 'Epilogue', sans-serif;
+  }
+  .projectCredit {
+    padding-top: .3rem;
+    font-size: 1.2rem;
+    font-family: 'Epilogue', sans-serif;
+  }
+  .projectProcess {
+    margin-top: 6rem;
+  }
+  .imageA {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .imageB {
+    padding-right: 2rem;
+    padding-left: 2rem;
   }
 }
 @media only screen and (min-width:372px) {
@@ -400,6 +450,55 @@ a.easterEgg:hover {
 .verticalText8 {
   top:22rem;
 }
+    /*projects*/
+    .projectOverview {
+      padding-left: 5rem;
+      padding-right: 2.5rem;
+    }
+    div.redBox {
+      width: 37rem;
+    }
+    .projectTitle {
+      font-size: 2.8rem;
+    }
+    .projectType {
+      font-size: 1.6rem;
+    }
+    div.content {
+      padding-top: .3rem;
+      padding-bottom: .7rem;
+      padding-right: 1.8rem;
+    }
+    p.clientTitle, p.copyText {
+      font-size: 1.2rem;
+      font-family: 'Epilogue', sans-serif;
+    }
+    .projectCredit {
+      padding-top: .3rem;
+      font-size: 1.2rem;
+      font-family: 'Epilogue', sans-serif;
+    }
+    .projectIcon {
+      width: 100%;
+      padding-right: 2rem;
+      padding-bottom: 2rem;
+    }
+    .projectProcess {
+      margin-top: 5rem;
+    }
+    .imageA {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+    .imageB {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+    p.processTextL {
+      padding-left: 5rem;
+      padding-right: 2rem;
+    }
+}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -454,7 +553,51 @@ a.easterEgg:hover {
   .verticalText4 {
     top:16rem;
    }
+  /*projects*/
+  .projectOverview {
+      padding-left: 5rem;
+      padding-right: 2.5rem;
+  }
+  div.redBox {
+      width: 20.9rem;
+  }
+  .projectTitle {
+      font-size: 1.8rem;
+  }
+  .projectType {
+      font-size: 1.3rem;
+  }
+  div.content {
+      padding-top: .3rem;
+      padding-bottom: .3rem;
+      padding-right: 1.8rem;
+  }
+  p.clientTitle, p.copyText {
+      font-size: 1.rem;
+  }
+  .projectCredit {
+      padding-top: 1rem;
+      font-size: 1.2rem;
+  }
+  .projectProcess {
+      margin-top: 18rem;
+  }
+  .imageA {
+      padding-left: 5rem;
+      padding-right: 0rem;
+  }
+  .imageB {
+      padding-left: 0rem;
+      padding-right: 5rem;
+  }
+  .projectProcess2 {
+      margin-top: 2rem;
+  }
+  .gif {
+      width: 60%;
+  }
 }
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -479,6 +622,38 @@ a.easterEgg:hover {
   .verticalText4 {
     top:17rem;
    }
+    /*projects*/
+    .projectOverview {
+        padding-left: 5rem;
+        padding-right: 2.5rem;
+    }
+    div.redBox {
+        width: 35.9rem;
+    }
+    .projectTitle {
+        font-size: 3rem;
+    }
+    .projectType {
+        font-size: 2rem;
+    }
+    div.content {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        padding-right: 1.8rem;
+    }
+    p.clientTitle, p.copyText {
+        font-size: 1.4rem;
+    }
+    .projectCredit {
+        padding-top: 18rem;
+        font-size: 1.4rem;
+    }
+    .projectProcess {
+        margin-top: 26rem;
+    }
+    .projectProcess2 {
+        margin-top: 2rem;
+    }
 }
 
 
