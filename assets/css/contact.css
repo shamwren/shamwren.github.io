@@ -178,7 +178,7 @@ div.contactL {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     main {
-        padding-top: 8rem;
+        padding-top: 6rem;
         padding-bottom: 16rem;
     }
     .profilePhoto {

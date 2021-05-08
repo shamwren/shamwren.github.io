@@ -51,16 +51,17 @@
   </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>caravaggio paint brush - katie tju</title>
-  <meta name="description" content="A 3D modeled product for artist Caravaggio.">
-  <meta property="og:image" content="https://katietju.com/assets/images/3dProduct/3dProduct.jpg">
+  <title>NAMLA CPP logo - katie tju</title>
+  <meta name="description" content="A logo that represents the CPP chapter of National Association of Minority Landscape Architects.">
+  <meta property="og:image" content="https://katietju.com/assets/images/NAMLA/mockup.jpg">
 
-  <link rel="stylesheet" type="text/css" href="assets/css/caravaggioProduct.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/namla.css">
   <link rel="stylesheet" type="text/css" href="assets/css/shareCss.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <script src="https://kit.fontawesome.com/25bb4ce642.js" crossorigin="anonymous"></script>
+
 
   <!-- bootstrap stylesheet -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
@@ -71,59 +72,131 @@
 
 <body>
 
+ <!--top button-->
+ <button onclick="topFunction()" type="button" 
+ class="btn buttonTop " id="topButton" title="scroll to top"><i class="fas fa-chevron-up buttonTop"></i></button>
+ <script>
+   //Get the button
+   var mybutton = document.getElementById("topButton");
+
+   // When the user scrolls down 20px from the top of the document, show the button
+   window.onscroll = function () {
+     scrollFunction()
+   };
+
+   function scrollFunction() {
+     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+       mybutton.style.display = "block";
+     } else {
+       mybutton.style.display = "none";
+     }
+   }
+
+   // When the user clicks on the button, scroll to the top of the document
+   function topFunction() {
+     document.body.scrollTop = 0;
+     document.documentElement.scrollTop = 0;
+   }
+ </script>
+
+
   <a class="projectArrow"
-  href="riot.html"><i class="fas fa-chevron-left projectArrowLeft"></i></a>
+  href="newsletter2020.html"><i class="fas fa-chevron-left projectArrowLeft"></i></a>
   <a class="projectArrow"
-  href="brandingProject.html"><i class="fas fa-chevron-right projectArrowRight"></i></a>
+  href="riot.html"><i class="fas fa-chevron-right projectArrowRight"></i></a>
+
 
   <div class="container-fluid">
      
     <div class="row projectOverview animate__animated animate__fadeIn">
         <div class="order-2 order-sm-2 order-md-1 col-sm-12 col-md-4 col-lg-5">
           <div class="redBox">
-            <h1 class="projectTitle" style="font-weight: 800;">caravaggio paint brush</h1>
+            <h1 class="projectTitle" style="font-weight: 800;">NAMLA CPP logo</h1>
           </div>
           <div>
-            <h2 class="projectType" style="font-weight: 200;">packaging + product</h2>
+            <h2 class="projectType" style="font-weight: 200;">branding</h2>
           </div>
           <div class="content">
             <p class="clientTitle">
-              client / <i style="font-weight: 400;">self-study</i><br />
-              role / <i style="font-weight: 400;">3D modeling, design, research </i>
+              client / <i style="font-weight: 400;">NAMLA CPP</i><br />
+              role / <i style="font-weight: 400;">concept, design, illustration </i>
             </p>
           </div> 
           <div>
-            <p class="copyText">A product with packaging based on the artist Michelangelo Caravaggio
-              and his unconventional ways. Focused on his almost sacrilegious use of prositutes 
-              as models for religious figures, this product aims to retain the same feel while expressing
-              who Caravaggio was as an artist.
-         </p> </p>
+            <p class="copyText">NAMLA CPP is a Cal Poly Pomona student chapter of 
+                the National Association of Minority Landscape Architects.
+                They aim to understand the needs and desires of the student body, and seek to provide a culture that 
+                represents everyone. To better distinguish themselves from their counterpart, they sought a 
+                logo that represents the growth of their members through the roots of their club.
+            </p>
           </div>
           <div>
             <p class="projectCredit">
-              software / <i style="font-weight: 400;">Rhino, Id, Ai</i><br />
+              software / <i style="font-weight: 400;">Ai, Id, Ps</i><br />
+              credit / <i style="font-weight: 400;">marijose cuellar, jasmine najarro </i>
             </p>
           </div>
         </div>
 
         <div class="order-1 order-sm-1 order-md-12 col-sm col-md-8 col-lg-7 ">
-          <img class="projectIcon img-fluid"  src="assets/images/3dProduct/3dProduct.jpg">
+          <img class="projectIcon img-fluid"  src="assets/images/namla/mockup.jpg">
         </div>
       </div>
 
-    <div class="row projectProcess">
-        <div class="col-sm-12 col-md-6 col-lg-6">
-
+    <div class="row projectProcess justify-content-start">
+        <div class="col-sm-12 col-md-6 col-lg-5">
+          <img class="imageA img-fluid" src="assets/images/namla/sketch.gif">
+          <p class="processTextL">
+            Initial Sketches Focused on Landscape Lexicon
+          </p>
         </div>
-        <div class="col-sm-auto col-md-6 col-lg-6">
-
+        <div class="col-sm-auto col-md-6 col-lg-5">
+          <img class="imageB img-fluid" src="assets/images/namla/sketchesCl.jpg">
         </div>
     </div>
+
+    <div class="row projectProcess2 justify-content-end">
+      <div class="col-sm-12 col-md-6 col-lg-5">
+        <img class="imageA img-fluid"  src="assets/images/namla/socialMedia.gif">
+        <p class="processTextL">
+            Social Media Post
+          </p>
+      </div>
+      <div class="col-sm-auto col-md-6 col-lg-5">
+        <img class="imageB img-fluid" src="assets/images/namla/colors.png">
+      </div>
+  </div>
+
+  <div class="row projectProcess2 justify-content-start">
+    <div class="col-sm-12 col-md-6 col-lg-5">
+      <img class="imageA img-fluid" src="assets/images/namla/namlaColors.svg">
+      <p class="processTextL">
+        Primary Logo
+      </p>
+    </div>
+    <div class="col-sm-auto col-md-6 col-lg-5">
+      <img class="imageB img-fluid" src="assets/images/namla/logoBlack.svg">
+    </div>
+</div>
+
+<div class="row projectProcess2 justify-content-end">
+  <div class="col-sm-12 col-md-6 col-lg-5">
+    <img class="imageA img-fluid"  src="assets/images/namla/logo4.svg">
+    <p class="processTextL">
+      Secondary Logos
+    </p>
+  </div>
+  <div class="col-sm-auto col-md-6 col-lg-5">
+    <img class="imageB img-fluid" src="assets/images/namla/logoInvert.svg">
+
+  </div>
+</div>
+
 
   </div>
 
   <footer id="bottom">
-    <div class="container-fluid">
+    <div class="container-fluid projectFooter">
       <div class="row footer">
         <div class="col-xs-8 col-md-8 col-lg-8">
           <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script> 
