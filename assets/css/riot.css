@@ -78,7 +78,14 @@ p.processTextL {
     font-family: 'Epilogue', sans-serif;
     font-size: 1rem;
 }
-
+a.creditName {
+    color: black;
+    text-decoration: none;
+  }
+  a.creditName:hover {
+    color: #c72420;
+    text-decoration: none;
+  }
 
 /* Extra small devices (phones, 576px and down) */
 @media only screen and (max-width: 576px) {

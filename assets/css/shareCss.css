@@ -10,6 +10,15 @@ div.lyricVideo {
   display: none;
 }
 
+a.creditName {
+  color: black;
+  text-decoration: none;
+}
+a.creditName:hover {
+  color: #c72420;
+  text-decoration: none;
+}
+
 /*cursor*/
 body {
   height: 100vh;
