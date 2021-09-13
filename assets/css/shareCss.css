@@ -18,6 +18,9 @@ a.creditName:hover {
   color: #c72420;
   text-decoration: none;
 }
+.none {
+  display: none;
+}
 
 /*cursor*/
 body {
